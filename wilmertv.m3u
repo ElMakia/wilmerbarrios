@@ -18,16 +18,16 @@ http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/106
 #EXTINF:-1 tvg-id="" tvg-name="FOX Sports 3" tvg-logo="" group-title="DEPORTES",FOX Sports 3
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/107
 
-#EXTINF:-1 tvg-id="" tvg-name="Win Sports" tvg-logo="" group-title="DEPORTES",Win Sports
+#EXTINF:-1 tvg-id="" tvg-name="Win Sports" tvg-logo="https://seeklogo.com/images/W/win-sports-logo-22E3EAAD99-seeklogo.com.png" group-title="DEPORTES",Win Sports
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/179
 
 #EXTINF:-1 tvg-id="" tvg-name="FOX SPORTS PREMIUN" tvg-logo="" group-title="DEPORTES",FOX SPORTS PREMIUN
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/552
 
-#EXTINF:-1 tvg-id="" tvg-name="WINSPORTS PLUS" tvg-logo="" group-title="DEPORTES",WIN SPORTS +
+#EXTINF:-1 tvg-id="" tvg-name="WINSPORTS PLUS" tvg-logo="https://dimayor.com.co/calendar_soluciones/menuDimayor/l56187c0rh.execute-api.us-east-1.amazonaws.com/win/WIN%20MAS.png" group-title="DEPORTES",WIN SPORTS +
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/984
 
-#EXTINF:-1 tvg-id="" tvg-name="DIREC TV PLUS" tvg-logo="https://dimayor.com.co/calendar_soluciones/menuDimayor/l56187c0rh.execute-api.us-east-1.amazonaws.com/win/WIN%20MAS.png" group-title="DEPORTES",DIREC TV PLUS
+#EXTINF:-1 tvg-id="" tvg-name="DIREC TV PLUS" tvg-logo="" group-title="DEPORTES",DIREC TV PLUS
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/1046
 
 #EXTINF:-1 tvg-id="" tvg-name="DIRECTV SPORTS 2" tvg-logo="" group-title="DEPORTES",DIRECTV SPORTS 2
