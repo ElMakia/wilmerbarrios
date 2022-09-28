@@ -72,11 +72,19 @@ http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/517
 #EXTINF:-1 tvg-id="" tvg-name="CITY TV" tvg-logo="" group-title="COLOMBIA",CITY TV
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/524
 
+#EXTINF:-1 tvg-id="" tvg-name="CITY TV" tvg-logo="" group-title="COLOMBIA",RCN HD 9
+http://comag.rip:8000/00159101576765/61790209632447/205543?checkedby:iptvcat.com
+
+
 #EXTINF:-1 tvg-id="" tvg-name="TELEANTIOQUIA" tvg-logo="" group-title="COLOMBIA",TELEANTIOQUIA
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/528
 
 #EXTINF:-1 tvg-id="" tvg-name="TELECARIBE" tvg-logo="" group-title="COLOMBIA",TELECARIBE
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/530
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECARIBE" tvg-logo="" group-title="COLOMBIA",LA KALLE HD
+http://comag.rip:8000/00159101576765/61790209632447/205514?checkedby:iptvcat.com
+
 
 #EXTINF:-1 tvg-id="" tvg-name="TELECARIBE DEPORTES" tvg-logo="" group-title="COLOMBIA", TELECARIBE DEPORTES
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3057
