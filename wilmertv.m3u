@@ -1,12 +1,12 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="" tvg-name="ESPN 2" tvg-logo="" group-title="DEPORTE LATINO",ESPN 2 MX
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 2" tvg-logo="" group-title="DEPORTES",ESPN 2 MX
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/90
 
-#EXTINF:-1 tvg-id="" tvg-name="ESPN 3" tvg-logo="" group-title="DEPORTE LATINO",ESPN 3 MX
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 3" tvg-logo="" group-title="DEPORTES",ESPN 3 MX
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/91
 
-#EXTINF:-1 tvg-id="" tvg-name="ESPN Deportes" tvg-logo="" group-title="DEPORTE LATINO",ESPN Deportes
+#EXTINF:-1 tvg-id="" tvg-name="ESPN Deportes" tvg-logo="" group-title="DEPORTES",ESPN Deportes
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/92
 
 #EXTINF:-1 tvg-id="" tvg-name="FOX Sports" tvg-logo="" group-title="DEPORTES",FOX Sports
@@ -27,7 +27,7 @@ http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/552
 #EXTINF:-1 tvg-id="" tvg-name="WINSPORTS PLUS" tvg-logo="" group-title="DEPORTES",WIN SPORTS +
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/984
 
-#EXTINF:-1 tvg-id="" tvg-name="DIREC TV PLUS" tvg-logo="" group-title="DEPORTES",DIREC TV PLUS
+#EXTINF:-1 tvg-id="" tvg-name="DIREC TV PLUS" tvg-logo="https://dimayor.com.co/calendar_soluciones/menuDimayor/l56187c0rh.execute-api.us-east-1.amazonaws.com/win/WIN%20MAS.png" group-title="DEPORTES",DIREC TV PLUS
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/1046
 
 #EXTINF:-1 tvg-id="" tvg-name="DIRECTV SPORTS 2" tvg-logo="" group-title="DEPORTES",DIRECTV SPORTS 2
