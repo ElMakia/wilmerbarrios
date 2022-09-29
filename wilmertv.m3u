@@ -96,10 +96,7 @@ http://topstb.com:8000/50656250782258/27115840859269/205508?checkedby:iptvcat.co
 #EXTINF:-1 tvg-id="" tvg-name="CANAL UNO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZpaiDUnLbYY7wIgff_FoZPMXh_70H1lHBJjmfd7oVOEs86AOwSW25gh02s9XYx6kY2kM&usqp=CAU" group-title="COLOMBIA",CANAL UNO
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3059
 
-#EXTINF:-1 tvg-id="" tvg-name="CANAL TRO" tvg-logo="" group-title="COLOMBIA",CANAL TRO
-http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3060
-
-#EXTINF:-1 tvg-id="" tvg-name="RCN NOVELAS" tvg-logo="" group-title="COLOMBIA",RCN NOVELAS
+#EXTINF:-1 tvg-id="" tvg-name="RCN NOVELAS" tvg-logo="https://www.foromedios.com/uploads/gallery/album_2/gallery_1157_2_28591.png" group-title="COLOMBIA",RCN NOVELAS
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3061
 
 #EXTINF:-1 tvg-id="" tvg-name="A+" tvg-logo="" group-title="CINE PREMIUM",A+
@@ -124,19 +121,19 @@ http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3699
 #EXTINF:-1 tvg-id="" tvg-name="ULTRA FIESTA" tvg-logo="" group-title="CINE PREMIUM",ULTRA FIESTA
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3809
 
-#EXTINF:-1 tvg-id="" tvg-name="FOX COMEDY (STAR COMEDY)" tvg-logo="" group-title="CINE PREMIUM",FOX COMEDY (STAR COMEDY) FHD
+#EXTINF:-1 tvg-id="" tvg-name="FOX COMEDY (STAR COMEDY)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/36/Fox_Comedy_Australia_2020.svg/revision/latest?cb=20201111142424&path-prefix=es" group-title="CINE PREMIUM",FOX COMEDY (STAR COMEDY) FHD
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3139
 
-#EXTINF:-1 tvg-id="" tvg-name="HBO 2" tvg-logo="" group-title="CINE PREMIUM",HBO 2 FHD
+#EXTINF:-1 tvg-id="" tvg-name="HBO 2" tvg-logo="https://w7.pngwing.com/pngs/1007/946/png-transparent-hbo-2-television-show-streaming-media-production-company-television-text-logo-thumbnail.png" group-title="CINE PREMIUM",HBO 2 FHD
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3146
 
-#EXTINF:-1 tvg-id="" tvg-name="HBO FAMILY" tvg-logo="" group-title="CINE PREMIUM",HBO FAMILY FHD
+#EXTINF:-1 tvg-id="" tvg-name="HBO FAMILY" tvg-logo="data:image/png;base64,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" group-title="CINE PREMIUM",HBO FAMILY FHD
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3147
 
-#EXTINF:-1 tvg-id="" tvg-name="HBO MUNDI " tvg-logo="" group-title="CINE PREMIUM",HBO MUNDI FHD
+#EXTINF:-1 tvg-id="" tvg-name="HBO MUNDI " tvg-logo="https://cdn.mitvstatic.com/channels/ar_max_m.png" group-title="CINE PREMIUM",HBO MUNDI FHD
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3148
 
-#EXTINF:-1 tvg-id="" tvg-name="HBO POP" tvg-logo="" group-title="CINE PREMIUM",HBO POP FHD
+#EXTINF:-1 tvg-id="" tvg-name="HBO POP" tvg-logo="https://www.foromedios.com/uploads/monthly_2020_02/large.2068363025_HBOPOP(varianteamarilla).png.62c4bb43c9cc2a52eb65f55ab3d82d92.png" group-title="CINE PREMIUM",HBO POP FHD
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3149
 
 #EXTINF:-1 tvg-id="" tvg-name="HBO SIGNATURE" tvg-logo="" group-title="CINE PREMIUM",HBO SIGNATURE FHD
@@ -151,19 +148,19 @@ http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/3152
 #EXTINF:-1 tvg-id="" tvg-name="Animal Planet" tvg-logo="" group-title="CULTURA",Animal Planet
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/45
 
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Channel" tvg-logo="" group-title="CULTURA",Discovery Channel
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Channel" tvg-logo="https://www.jugomobile.com/wp-content/uploads/2021/12/1640571380_Como-ver-Discovery-Channel-sin-cable.jpg" group-title="CULTURA",Discovery Channel
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/70
 
-#EXTINF:-1 tvg-id="" tvg-name="Discovery en Espanol" tvg-logo="" group-title="CULTURA",Discovery en Espanol
+#EXTINF:-1 tvg-id="" tvg-name="Discovery en Espanol" tvg-logo="https://www.jugomobile.com/wp-content/uploads/2021/12/1640571380_Como-ver-Discovery-Channel-sin-cable.jpg" group-title="CULTURA",Discovery en Espanol
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/72
 
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Familia" tvg-logo="" group-title="CULTURA",Discovery Familia
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Familia" tvg-logo="https://img2.freepng.es/20181109/ptz/kisspng-discovery-familia-discovery-family-image-logo-cox-cable-deals-in-your-area-local-cable-deals-5be5febe847ce2.9028707615417996145427.jpg" group-title="CULTURA",Discovery Familia
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/73
 
-#EXTINF:-1 tvg-id="" tvg-name="Discovery H&H" tvg-logo="" group-title="CULTURA",Discovery H&H
+#EXTINF:-1 tvg-id="" tvg-name="Discovery H&H" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2GsXEHdFo-TZrBi2Gi28Wk5FrIeZH7ZivaDnHVuEpgr2QjQ0nHHIEDwMFvchKkRyah-8&usqp=CAU" group-title="CULTURA",Discovery H&H
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/74
 
-#EXTINF:-1 tvg-id="" tvg-name="Discovery ID" tvg-logo="" group-title="CULTURA",Discovery ID
+#EXTINF:-1 tvg-id="" tvg-name="Discovery ID" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCSHmKljcsrOY3PoxXM72hlcmblyLzsy5dYwunX8WH18woea4KQb7JFRNFYgKVeUZPPA&usqp=CAU" group-title="CULTURA",Discovery ID
 http://51.222.25.50:25461/h7apwKAtt2/xrj4U9RAkV/75
 
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Science" tvg-logo="" group-title="CULTURA",Discovery Science
@@ -476,8 +473,7 @@ http://gratuita.mrzutv.net:8080/play/yWepXArwuky0A0D0-wUh6Pew7hg78kqqS0LvHXhFXd5
 http://gratuita.mrzutv.net:8080/play/yWepXArwuky0A0D0-wUh6Pew7hg78kqqS0LvHXhFXd7_TX2F3O9EguV67oB65bc5
 #EXTINF:-1 xui-id="29" tvg-id="" tvg-name="MEXIQUEANDO.SITE-BitMe" tvg-logo="http://gratuita.mrzutv.net:8080/images/K7_UJoGQ-EzbYW6zA6v1EUXsO1XjAA9_gd7yMKSDs0nyqHrjZDZLQuAvb_f1u0kGQk_eP9c-K6KAWfAOtoVTqA.png" group-title="ENTRETENIMIENTO",MEXIQUEANDO.SITE-BitMe
 http://gratuita.mrzutv.net:8080/play/yWepXArwuky0A0D0-wUh6Pew7hg78kqqS0LvHXhFXd48J_j8kMQrlE42FoP3VrA_
-#EXTINF:-1 xui-id="30" tvg-id="" tvg-name="MEXIQUEANDO.SITE-Caracol" tvg-logo="http://gratuita.mrzutv.net:8080/images/K7_UJoGQ-EzbYW6zA6v1EUXsO1XjAA9_gd7yMKSDs0kTXOnbwV1i1xhST4vcR2mOgzPtIo3D6420wL9CCGhVtQ.jpg" group-title="INTERNACIONALES",MEXIQUEANDO.SITE-Caracol
-http://gratuita.mrzutv.net:8080/play/yWepXArwuky0A0D0-wUh6Pew7hg78kqqS0LvHXhFXd6rmAuAnFiVfUDfitF-5sC_
+
 #EXTINF:-1 xui-id="31" tvg-id="" tvg-name="MEXIQUEANDO.SITE-Comedy Central" tvg-logo="http://gratuita.mrzutv.net:8080/images/K7_UJoGQ-EzbYW6zA6v1EUXsO1XjAA9_gd7yMKSDs0mEXQhGHHLgZt_8008zSsf3z3QUZjGjuBq0dyhV2kUf2g.jpg" group-title="ENTRETENIMIENTO",MEXIQUEANDO.SITE-Comedy Central
 http://gratuita.mrzutv.net:8080/play/yWepXArwuky0A0D0-wUh6Pew7hg78kqqS0LvHXhFXd4rpCwKBSW3-Fq1ATLH-UFr
 #EXTINF:-1 xui-id="32" tvg-id="" tvg-name="MEXIQUEANDO.SITE-DHE" tvg-logo="http://gratuita.mrzutv.net:8080/images/K7_UJoGQ-EzbYW6zA6v1EUXsO1XjAA9_gd7yMKSDs0nXhcRO27EGHgxPNePwA7NsDg_Gn1GmVm_1Wsy-Rg0O0w.jpg" group-title="ENTRETENIMIENTO",MEXIQUEANDO.SITE-DHE
@@ -551,9 +547,9 @@ http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/72250
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/72248
 #EXTINF:-1 tvg-id="" tvg-name="Vive VE" tvg-logo="" group-title="Latino",Vive VE
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/72247
-#EXTINF:-1 tvg-id="aandelatamerica.co" tvg-name="A&amp;E LAM" tvg-logo="" group-title="Latino",A&amp;E LAM
+#EXTINF:-1 tvg-id="aandelatamerica.co" tvg-name="A&amp;E LAM" tvg-logo="" group-title="CINE PREMIUM",A&amp;E LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45665
-#EXTINF:-1 tvg-id="" tvg-name="A&amp;E FHD LAM" tvg-logo="" group-title="Latino",A&amp;E FHD LAM
+#EXTINF:-1 tvg-id="" tvg-name="A&amp;E FHD LAM" tvg-logo="" group-title="CINE PREMIUM",A&amp;E FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45666
 #EXTINF:-1 tvg-id="" tvg-name="ADN 40 LAM" tvg-logo="" group-title="Latino",ADN 40 LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45667
@@ -565,9 +561,9 @@ http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45669
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45670
 #EXTINF:-1 tvg-id="" tvg-name="ATV Noticias FHD LAM" tvg-logo="" group-title="Latino",ATV Noticias FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45671
-#EXTINF:-1 tvg-id="" tvg-name="AXN LAM" tvg-logo="" group-title="Latino",AXN LAM
+#EXTINF:-1 tvg-id="" tvg-name="AXN LAM" tvg-logo="" group-title="CINE PREMIUM",AXN LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45672
-#EXTINF:-1 tvg-id="axn.co" tvg-name="AXN FHD LAM" tvg-logo="" group-title="Latino",AXN FHD LAM
+#EXTINF:-1 tvg-id="axn.co" tvg-name="AXN FHD LAM" tvg-logo="" group-title="CINE PREMIUM",AXN FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45673
 #EXTINF:-1 tvg-id="" tvg-name="Azteca UNO LAM" tvg-logo="" group-title="Latino",Azteca UNO LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45677
@@ -619,15 +615,15 @@ http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45708
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45707
 #EXTINF:-1 tvg-id="" tvg-name="Digital Quince LAM" tvg-logo="" group-title="Latino",Digital Quince LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45705
-#EXTINF:-1 tvg-id="" tvg-name="De Pelicula Plus FHD LAM" tvg-logo="" group-title="Latino",De Pelicula Plus FHD LAM
+#EXTINF:-1 tvg-id="" tvg-name="De Pelicula Plus FHD LAM" tvg-logo="" group-title="CINE PREMIUM",De Pelicula Plus FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45704
-#EXTINF:-1 tvg-id="" tvg-name="De Pelicula Plus LAM" tvg-logo="" group-title="Latino",De Pelicula Plus LAM
+#EXTINF:-1 tvg-id="" tvg-name="De Pelicula Plus LAM" tvg-logo="" group-title="CINE PREMIUM",De Pelicula Plus LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45703
-#EXTINF:-1 tvg-id="" tvg-name="De Pelicula Classico LAM" tvg-logo="" group-title="Latino",De Pelicula Classico LAM
+#EXTINF:-1 tvg-id="" tvg-name="De Pelicula Classico LAM" tvg-logo="" group-title="CINE PREMIUM",De Pelicula Classico LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45702
-#EXTINF:-1 tvg-id="" tvg-name="De Pelicula FHD LAM" tvg-logo="" group-title="Latino",De Pelicula FHD LAM
+#EXTINF:-1 tvg-id="" tvg-name="De Pelicula FHD LAM" tvg-logo="" group-title="CINE PREMIUM",De Pelicula FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45701
-#EXTINF:-1 tvg-id="" tvg-name="De Pelicula LAM" tvg-logo="" group-title="Latino",De Pelicula LAM
+#EXTINF:-1 tvg-id="" tvg-name="De Pelicula LAM" tvg-logo="" group-title="CINE PREMIUM",De Pelicula LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45700
 #EXTINF:-1 tvg-id="" tvg-name="Cubavision LAM" tvg-logo="" group-title="Latino",Cubavision LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45699
@@ -637,15 +633,15 @@ http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45698
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45697
 #EXTINF:-1 tvg-id="" tvg-name="CNN Espanol LAM" tvg-logo="" group-title="Latino",CNN Espanol LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45695
-#EXTINF:-1 tvg-id="" tvg-name="CNN Internacional LAM" tvg-logo="" group-title="Latino",CNN Internacional LAM
+#EXTINF:-1 tvg-id="" tvg-name="CNN Internacional LAM" tvg-logo="" group-title="CINE PREMIUM",CNN Internacional LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45696
-#EXTINF:-1 tvg-id="" tvg-name="Cinemax FHD LAM" tvg-logo="" group-title="Latino",Cinemax FHD LAM
+#EXTINF:-1 tvg-id="" tvg-name="Cinemax FHD LAM" tvg-logo="" group-title="CINE PREMIUM",Cinemax FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45694
-#EXTINF:-1 tvg-id="" tvg-name="Cinemax LAM" tvg-logo="" group-title="Latino",Cinemax LAM
+#EXTINF:-1 tvg-id="" tvg-name="Cinemax LAM" tvg-logo="" group-title="CINE PREMIUM",Cinemax LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45693
 #EXTINF:-1 tvg-id="" tvg-name="Cinecanal FHD LAM" tvg-logo="" group-title="Latino",Cinecanal FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45692
-#EXTINF:-1 tvg-id="" tvg-name="Cinecanal LAM" tvg-logo="" group-title="Latino",Cinecanal LAM
+#EXTINF:-1 tvg-id="" tvg-name="Cinecanal LAM" tvg-logo="" group-title="CINE PREMIUM",Cinecanal LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45691
 #EXTINF:-1 tvg-id="" tvg-name="CGTN LAM" tvg-logo="" group-title="Latino",CGTN LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45690
@@ -807,43 +803,43 @@ http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45804
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45803
 #EXTINF:-1 tvg-id="" tvg-name="History FHD LAM" tvg-logo="" group-title="Latino",History FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45802
-#EXTINF:-1 tvg-id="" tvg-name="History 2 FHD LAM" tvg-logo="" group-title="Latino",History 2 FHD LAM
+#EXTINF:-1 tvg-id="" tvg-name="History 2 FHD LAM" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0WDyoVG3paynCu_WqR8zAN7U-ys2RzTDqnT0o8xwzpWo-3Lp3Vuh4N582UVHTqMEOVsQ&usqp=CAU" group-title="Latino",History 2 FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45801
-#EXTINF:-1 tvg-id="" tvg-name="HBO Signature FHD LAM" tvg-logo="" group-title="Latino",HBO Signature FHD LAM
+#EXTINF:-1 tvg-id="" tvg-name="HBO Signature FHD LAM" tvg-logo="https://cdn.mitvstatic.com/channels/cl_hbo-signature_m.png" group-title="CINE PREMIUM",HBO Signature FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45800
-#EXTINF:-1 tvg-id="" tvg-name="HBO Signature LAM" tvg-logo="" group-title="Latino",HBO Signature LAM
+#EXTINF:-1 tvg-id="" tvg-name="HBO Signature LAM" tvg-logo="https://cdn.mitvstatic.com/channels/cl_hbo-signature_m.png" group-title="CINE PREMIUM",HBO Signature LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45799
-#EXTINF:-1 tvg-id="" tvg-name="HBO Plus FHD LAM" tvg-logo="" group-title="Latino",HBO Plus FHD LAM
+#EXTINF:-1 tvg-id="" tvg-name="HBO Plus FHD LAM" tvg-logo="data:image/png;base64,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" group-title="CINE PREMIUM",HBO Plus FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45798
-#EXTINF:-1 tvg-id="" tvg-name="HBO Plus LAM" tvg-logo="" group-title="Latino",HBO Plus LAM
+#EXTINF:-1 tvg-id="" tvg-name="HBO Plus LAM" tvg-logo="data:image/png;base64,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" group-title="CINE PREMIUM",HBO Plus LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45797
-#EXTINF:-1 tvg-id="hbofamily.us" tvg-name="HBO Family FHD LAM" tvg-logo="" group-title="Latino",HBO Family FHD LAM
+#EXTINF:-1 tvg-id="hbofamily.us" tvg-name="HBO Family FHD LAM" tvg-logo="https://static.wikia.nocookie.net/hbo-family/images/5/51/HBO_Family.png/revision/latest?cb=20200629025129" group-title="CINE PREMIUM",HBO Family FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45796
-#EXTINF:-1 tvg-id="" tvg-name="HBO Family LAM" tvg-logo="" group-title="Latino",HBO Family LAM
+#EXTINF:-1 tvg-id="" tvg-name="HBO Family LAM" tvg-logo="https://static.wikia.nocookie.net/hbo-family/images/5/51/HBO_Family.png/revision/latest?cb=20200629025129" group-title="CINE PREMIUM",HBO Family LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45795
-#EXTINF:-1 tvg-id="hbo2.us" tvg-name="HBO 2 FHD LAM" tvg-logo="" group-title="Latino",HBO 2 FHD LAM
+#EXTINF:-1 tvg-id="hbo2.us" tvg-name="HBO 2 FHD LAM" tvg-logo="https://w7.pngwing.com/pngs/1007/946/png-transparent-hbo-2-television-show-streaming-media-production-company-television-text-logo-thumbnail.png" group-title="CINE PREMIUM",HBO 2 FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45794
-#EXTINF:-1 tvg-id="" tvg-name="HBO 2 LAM" tvg-logo="" group-title="Latino",HBO 2 LAM
+#EXTINF:-1 tvg-id="" tvg-name="HBO 2 LAM" tvg-logo="https://w7.pngwing.com/pngs/1007/946/png-transparent-hbo-2-television-show-streaming-media-production-company-television-text-logo-thumbnail.png" group-title="CINE PREMIUM",HBO 2 LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45793
-#EXTINF:-1 tvg-id="" tvg-name="HBO LAM" tvg-logo="" group-title="Latino",HBO LAM
+#EXTINF:-1 tvg-id="" tvg-name="HBO LAM" tvg-logo="https://w7.pngwing.com/pngs/914/277/png-transparent-hbo-television-channel-logo-television-show-design-television-text-logo.png" group-title="CINE PREMIUM",HBO LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45791
 #EXTINF:-1 tvg-id="" tvg-name="H2 FHD LAM" tvg-logo="" group-title="Latino",H2 FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45790
-#EXTINF:-1 tvg-id="" tvg-name="HBO FHD LAM" tvg-logo="" group-title="Latino",HBO FHD LAM
+#EXTINF:-1 tvg-id="" tvg-name="HBO FHD LAM" tvg-logo="https://w7.pngwing.com/pngs/914/277/png-transparent-hbo-television-channel-logo-television-show-design-television-text-logo.png" group-title="CINE PREMIUM",HBO FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45792
 #EXTINF:-1 tvg-id="" tvg-name="H2 LAM" tvg-logo="" group-title="Latino",H2 LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45789
 #EXTINF:-1 tvg-id="" tvg-name="Guatevision LAM" tvg-logo="" group-title="Latino",Guatevision LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45788
-#EXTINF:-1 tvg-id="" tvg-name="Golden Plus FHD LAM" tvg-logo="" group-title="Latino",Golden Plus FHD LAM
+#EXTINF:-1 tvg-id="" tvg-name="Golden Plus FHD LAM" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguFmfniJdRREOvGQxMyIT6lrrnMTnDBBsb_FGPO4VrB7UsH5Wx58BVAul2euQEwzMCp8_VlT8DnS2xOoLsBDcCunKCFhR-ikJ30MQF76foaHYSgLU8LhJUh0VQUEPNiyZFI608WpFh4GUPq-PBTHIAaflEsmiauMahhIxYBG__c-OZd56j_icbirnRfQ/s600/golden-plus.png" group-title="CINE PREMIUM",Golden Plus FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45787
-#EXTINF:-1 tvg-id="" tvg-name="Golden Plus LAM" tvg-logo="" group-title="Latino",Golden Plus LAM
+#EXTINF:-1 tvg-id="" tvg-name="Golden Plus LAM" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguFmfniJdRREOvGQxMyIT6lrrnMTnDBBsb_FGPO4VrB7UsH5Wx58BVAul2euQEwzMCp8_VlT8DnS2xOoLsBDcCunKCFhR-ikJ30MQF76foaHYSgLU8LhJUh0VQUEPNiyZFI608WpFh4GUPq-PBTHIAaflEsmiauMahhIxYBG__c-OZd56j_icbirnRfQ/s600/golden-plus.png" group-title="CINE PREMIUM",Golden Plus LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45786
-#EXTINF:-1 tvg-id="" tvg-name="Golden Edge LAM" tvg-logo="" group-title="Latino",Golden Edge LAM
+#EXTINF:-1 tvg-id="" tvg-name="Golden Edge LAM" tvg-logo="" group-title="CINE PREMIUM",Golden Edge LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45785
-#EXTINF:-1 tvg-id="" tvg-name="Golden LAM" tvg-logo="" group-title="Latino",Golden LAM
+#EXTINF:-1 tvg-id="" tvg-name="Golden LAM" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguFmfniJdRREOvGQxMyIT6lrrnMTnDBBsb_FGPO4VrB7UsH5Wx58BVAul2euQEwzMCp8_VlT8DnS2xOoLsBDcCunKCFhR-ikJ30MQF76foaHYSgLU8LhJUh0VQUEPNiyZFI608WpFh4GUPq-PBTHIAaflEsmiauMahhIxYBG__c-OZd56j_icbirnRfQ/s600/golden-plus.png" group-title="CINE PREMIUM",Golden LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45784
-#EXTINF:-1 tvg-id="" tvg-name="GOL TV LAM" tvg-logo="" group-title="Latino",GOL TV LAM
+#EXTINF:-1 tvg-id="" tvg-name="GOL TV LAM" tvg-logo="" group-title="CINE PREMIUM",GOL TV LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45783
 #EXTINF:-1 tvg-id="" tvg-name="Glitz LAM" tvg-logo="" group-title="Latino",Glitz LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45782
@@ -897,11 +893,11 @@ http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45858
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45857
 #EXTINF:-1 tvg-id="" tvg-name="Starz Black FHD LAM" tvg-logo="" group-title="Latino",Starz Black FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45856
-#EXTINF:-1 tvg-id="" tvg-name="Space FHD LAM" tvg-logo="" group-title="Latino",Space FHD LAM
+#EXTINF:-1 tvg-id="" tvg-name="Space FHD LAM" tvg-logo="https://static.wixstatic.com/media/231abf_e1c6479e1108402bb66507cdfa45cdea.png/v1/fill/w_250,h_242,al_c,q_95,enc_auto/231abf_e1c6479e1108402bb66507cdfa45cdea.png" group-title="CINE PREMIUM",Space FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45855
-#EXTINF:-1 tvg-id="space.co" tvg-name="Space LAM" tvg-logo="" group-title="Latino",Space LAM
+#EXTINF:-1 tvg-id="space.co" tvg-name="Space LAM" tvg-logo="https://static.wixstatic.com/media/231abf_e1c6479e1108402bb66507cdfa45cdea.png/v1/fill/w_250,h_242,al_c,q_95,enc_auto/231abf_e1c6479e1108402bb66507cdfa45cdea.png" group-title="CINE PREMIUM",Space LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45854
-#EXTINF:-1 tvg-id="" tvg-name="Sony Channel LAM" tvg-logo="" group-title="Latino",Sony Channel LAM
+#EXTINF:-1 tvg-id="" tvg-name="Sony Channel LAM" tvg-logo="" group-title="CINE PREMIUM",Sony Channel LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45853
 #EXTINF:-1 tvg-id="showtimewest.us" tvg-name="Showtime West FHD LAM" tvg-logo="" group-title="Latino",Showtime West FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45852
@@ -1209,3 +1205,8 @@ http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45932
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45931
 #EXTINF:-1 tvg-id="" tvg-name="Univision Dallas FHD LAM" tvg-logo="" group-title="Latino",Univision Dallas FHD LAM
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/45930
+
+
+
+
+
