@@ -1,363 +1,1364 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ad/andorradifusio.ad.epg.xml.gz,https://iptv-org.github.io/epg/guides/ae-ar/osn.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/af/arianaafgtv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/af/arianatelevision.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/al/ipko.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/am/tv.mail.ru.epg.xml.gz,https://iptv-org.github.io/epg/guides/ao/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ar/directv.com.ar.epg.xml.gz,https://iptv-org.github.io/epg/guides/ar/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/at/magentatv.at.epg.xml.gz,https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/az/tv.mail.ru.epg.xml.gz,https://iptv-org.github.io/epg/guides/ba/mtel.ba.epg.xml.gz,https://iptv-org.github.io/epg/guides/be/telenettv.be.epg.xml.gz,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bg/tv.dir.bg.epg.xml.gz,https://iptv-org.github.io/epg/guides/bi/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bi/startimestv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bl/canalplus-caraibes.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml.gz,https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml.gz,https://iptv-org.github.io/epg/guides/by/tv.mail.ru.epg.xml.gz,https://iptv-org.github.io/epg/guides/ca/tvhebdo.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ca/tvtv.us.epg.xml.gz,https://iptv-org.github.io/epg/guides/cd/startimestv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml.gz,https://iptv-org.github.io/epg/guides/cl/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/co/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/co/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/co/siba.com.co.epg.xml.gz,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml.gz,https://iptv-org.github.io/epg/guides/de/hd-plus.de.epg.xml.gz,https://iptv-org.github.io/epg/guides/de/horizon.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml.gz,https://iptv-org.github.io/epg/guides/do/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ec/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ee-en/teliatv.ee.epg.xml.gz,https://iptv-org.github.io/epg/guides/eg-ar/elcinema.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/es/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/es/movistarplus.es.epg.xml.gz,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/fi/telkussa.fi.epg.xml.gz,https://iptv-org.github.io/epg/guides/fo/kvf.fo.epg.xml.gz,https://iptv-org.github.io/epg/guides/fr/canalplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml.gz,https://iptv-org.github.io/epg/guides/fr/programme-tv.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/fr/telecablesat.fr.epg.xml.gz,https://iptv-org.github.io/epg/guides/ga/startimestv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ge/magticom.ge.epg.xml.gz,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml.gz,https://iptv-org.github.io/epg/guides/gt/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/gt/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hn/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/hn/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/hr/maxtv.hrvatskitelekom.hr.epg.xml.gz,https://iptv-org.github.io/epg/guides/hu/mediaklikk.hu.epg.xml.gz,https://iptv-org.github.io/epg/guides/hu/musor.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/id/transvision.co.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/id/useetv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ie/ontvtonight.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/il/9tv.co.il.epg.xml.gz,https://iptv-org.github.io/epg/guides/il/i24news.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/il/kan.org.il.epg.xml.gz,https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml.gz,https://iptv-org.github.io/epg/guides/is/ruv.is.epg.xml.gz,https://iptv-org.github.io/epg/guides/is/sjonvarp.is.epg.xml.gz,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml.gz,https://iptv-org.github.io/epg/guides/it/tivu.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/ke/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/km/canalplus-reunion.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kz/tv.yandex.ru.epg.xml.gz,https://iptv-org.github.io/epg/guides/lt/cgates.lt.epg.xml.gz,https://iptv-org.github.io/epg/guides/mk/maxtvgo.mk.epg.xml.gz,https://iptv-org.github.io/epg/guides/mt/melita.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/mw/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/mx/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/mx/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/rtmklik.rtm.gov.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/mz/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ng/dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ng/startimestv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ni/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml.gz,https://iptv-org.github.io/epg/guides/nl/ziggogo.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/no/allente.se.epg.xml.gz,https://iptv-org.github.io/epg/guides/no/frikanalen.no.epg.xml.gz,https://iptv-org.github.io/epg/guides/pa/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/pe/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/pe/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/pf/programme-tv.vini.pf.epg.xml.gz,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ph/mysky.com.ph.epg.xml.gz,https://iptv-org.github.io/epg/guides/ph/tapdmv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/pl/programtv.onet.pl.epg.xml.gz,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml.gz,https://iptv-org.github.io/epg/guides/py/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ro/programetv.ro.epg.xml.gz,https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml.gz,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml.gz,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml.gz,https://iptv-org.github.io/epg/guides/se/tv.nu.epg.xml.gz,https://iptv-org.github.io/epg/guides/se/tv24.se.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/mewatch.sg.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/si/tv2go.t-2.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/sv/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sv/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/tg/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml.gz,https://iptv-org.github.io/epg/guides/tr/dsmart.com.tr.epg.xml.gz,https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml.gz,https://iptv-org.github.io/epg/guides/tz/startimestv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/virginmedia.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us-local/tvtv.us.epg.xml.gz,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/gatotv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/ontvtonight.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/tvpassport.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/watchyour.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/ve/reportv.com.ar.epg.xml.gz,https://iptv-org.github.io/epg/guides/za/guide.dstv.com.epg.xml.gz"
-#EXTINF:-1 group-title="General" tvg-id="TelecolorYurimaguas.pe" tvg-logo="https://i.imgur.com/Ug6XNIU.png" ,Telecolor (Yurimaguas) (720p) [Not 24/7]
-https://live.obslivestream.com/telecolormux/index.m3u8
-#EXTINF:-1 group-title="General" tvg-id="TVPeru.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tv_Per%C3%BA_-_Logo_2019_Reducido_%28TVPE%29.svg/512px-Tv_Per%C3%BA_-_Logo_2019_Reducido_%28TVPE%29.svg.png" ,TV Perú [Not 24/7]
-http://190.108.83.142:8000/play/a00i/index.m3u8
-#EXTINF:-1 group-title="News" tvg-id="Canal26.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png" ,Canal 26 (720p)
-http://200.115.193.177/live/26hd-720/playlist.m3u8
-#EXTINF:-1 group-title="News" tvg-id="IPNoticias.ar" tvg-logo="https://www.lyngsat.com/logo/tv/ii/ip-noticias-ar.png" ,Información Periodística (1080p)
-https://octubre-live.cdn.vustreams.com/live/ip/live.isml/5ee6e167-1167-4a85-9d8d-e08a3f55cff3.m3u8
-#EXTINF:-1 group-title="News" tvg-id="RTenEspanol.ru" tvg-logo="https://i.imgur.com/Fbli6Ml.png" ,RT en Español (1080p) [Geo-blocked]
-https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="DirecTVSportsArgentina.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/512px-DirecTV_Sports_Latin_America_%282018%29.png" ,DirecTV Sports (480p)
-http://190.210.221.119/Processor3_9_chunklist_b1300000.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="5TV.ar" tvg-logo="https://i.imgur.com/kujnLsO.png" ,5TV (Corrientes) (480p) [Not 24/7]
-http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="7TelevisionRegiondeMurcia.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/7TVRM.svg/512px-7TVRM.svg.png" ,7 Televisión Región de Murcia (1080p)
-https://rtv-murcia-live.globalmest.com/stream/abr/first.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="AlegriaTV.cl" tvg-logo="https://i.imgur.com/6dfXgJi.png" ,Alegria TV (480p) [Geo-blocked]
-https://593b04c4c5670.streamlock.net/8192/8192/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="AlternativaTV.cl" tvg-logo="https://i.imgur.com/ljJZ4Kj.png" ,Alternativa TV (Huasco) (720p) [Not 24/7]
-https://srv2.zcast.com.br/carlos2469/carlos2469/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Antena91.ar" tvg-logo="https://i2.paste.pics/b53ea7912cc518bf5baff39f6edc6c0b.png" ,Antena 91
-https://tuvideoonline.com.ar:3393/live/antena91live.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Bolivision.bo" tvg-logo="https://i.imgur.com/U98Z5zn.png" ,Bolivisión (480p)
-https://d2byzrnrdb259r.cloudfront.net/hls/live.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="BuenisimaRadioTV.co" tvg-logo="https://cdn.colombia.com/canales/buenisima-radio-tv-4865.jpg" ,Buenísima Radio TV (Gamarra | Cesar) (1080p) [Not 24/7]
-https://streamyes.alsolnet.com/buturama/live/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CadenaVivo.ar" tvg-logo="https://cvivo.com.ar/wp-content/uploads/2021/11/VIVO-CIRCULO.png" ,Cadena VIVO (720p)
-https://videostream.shockmedia.com.ar:19360/tvnoficial/tvnoficial.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CaliTV.co" tvg-logo="https://i.imgur.com/AZOTbvH.png" ,Cali TV (Santiago de Cali | Valle del Cauca) (540p) [Not 24/7]
-https://5ab772334c39c.streamlock.net/live-calitv/calitv1/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal10.ni" tvg-logo="https://i.imgur.com/ztp781b.png" ,Canal 10
-http://138.117.4.70:8075/channel10/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal10Cancun.mx" tvg-logo="https://s3-us-west-1.amazonaws.com/canal10/photos/96800/original.jpg" ,Canal 10 Cancún (720p) [Not 24/7]
-http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal10Cordoba.ar" tvg-logo="https://i.imgur.com/dQ86x7V.png" ,Canal 10 Córdoba (1080p)
-https://stream.arcast.live/canal10/ngrp:canal10_all/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal10TVRioNegro.ar" tvg-logo="https://www.lyngsat.com/logo/tv/cc/canal-10-tv-rio-negro-ar.png" ,Canal 10 Rio Negro (720p) [Not 24/7]
-http://panel.dattalive.com:1935/8204/8204/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal11delaCosta.ar" tvg-logo="https://i.imgur.com/yYExcq1.jpg" ,Canal 11 de la Costa (720p)
-https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal11LaRioja.ar" tvg-logo="https://i.imgur.com/Ji5XLWX.jpg" ,Canal 11 La Rioja (Fénix Multiplataforma) (360p)
-http://stmv4.questreaming.com/fenixlarioja/fenixlarioja/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal12HD.do" tvg-logo="https://i.imgur.com/ItOH7St.png" ,Canal 12 (720p) [Not 24/7]
-https://cdn4.hostlagarto.com:8081/static/telecanal12/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal12Web.ar" tvg-logo="https://i.imgur.com/VYcTRbd.png" ,Canal 12 Puerto Madryn (720p) [Not 24/7]
-https://5f700d5b2c46f.streamlock.net/madryntv/madryntv/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal12TrenqueLauquen.ar" tvg-logo="https://i.imgur.com/AA6cxbY.png" ,Canal 12 Trenque Lauquen (720p)
-https://f6z5x8d4.stackpathcdn.com/stream.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal13LaRioja.ar" tvg-logo="https://i.imgur.com/j2lPlFe.png" ,Canal 13 La Rioja (480p)
-http://arcast.net:1935/mp/mp/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal13SanLuis.ar" tvg-logo="https://pbs.twimg.com/profile_images/1136452628337090565/Q-4TRuKs_400x400.jpg" ,Canal 13 San Luis
-https://stream.arcast.live/sanluistv/ngrp:sanluistv_all/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="TVN14.cr" tvg-logo="https://i.imgur.com/4Xm75sJ.png" ,Canal 14 San Carlos (720p)
-http://tvn.obix.tv:1935/TVN/CH14.stream_720p/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal2Salta.ar" tvg-logo="https://pbs.twimg.com/profile_images/1505991107598962691/gWl-uFtn_400x400.jpg" ,Canal 2 (Salta)
-https://vivo.solumedia.com:19360/tv2salta/tv2salta.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal2HDSanAntonio.cl" tvg-logo="https://i.imgur.com/eLres7d.png" ,Canal 2 (San Antonio) (720p) [Not 24/7]
-https://unlimited1-us.dps.live/canal2/canal2.smil/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal2Sanagasta.ar" tvg-logo="https://lh3.googleusercontent.com/-JkBVmTEb_vw/YFtd-AiCe7I/AAAAAAABA4I/D3j1TH_6YVw-5eulULSfVnU0APlEpWoVwCK8BGAsYHg/s512/2021-03-24.jpg" ,Canal 2 (Sanagasta)
-https://stmvideo1.livecastv.com/canal2/canal2/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal2000.es" tvg-logo="https://i.imgur.com/FykJUCH.png" ,Canal 2000 La Solana (720p)
-http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal22.ar" tvg-logo="https://canal22web.com/wp-content/uploads/2020/09/80.jpg" ,Canal 22
-https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal24Horas.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/512px-Logo_TVE-24h.svg.png" ,Canal 24 Horas (720p)
-https://rtvelivestream.akamaized.net/segments/24h/24h_main.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal25.do" tvg-logo="https://www.lyngsat.com/logo/tv/cc/canal-25-do.png" ,Canal 25
-https://ss3.domint.net:3150/c25_str/canal25/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal33Madrid.es" tvg-logo="https://i.imgur.com/1zJpDIX.png" ,Canal 33 Madrid (720p) [Not 24/7]
-https://5ab29cc78f681.streamlock.net/canal33tvmadridgmailcom/livestream/master.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal4SanJuan.ar" tvg-logo="https://lh3.googleusercontent.com/-d0xwvrhf7JA/XjtInR7RIZI/AAAAAAAAvqw/68cv4FGDFB8BJwWGdo-31-vPYVqkw2OmgCK8BGAsYHg/s0/2020-02-05.png" ,Canal 4 (San Juan)
-http://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal4Eldorado.ar" tvg-logo="https://i2.paste.pics/62ed0ecfcfd69d8fb9ecf94c2e81e85b.png" ,Canal 4 Eldorado (720p)
-https://stream.arcast.com.ar/canal4eldorado/canal4eldorado/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal4Esquel.ar" tvg-logo="https://canal4esquel.com.ar/wp-content/uploads/2020/12/logo-web-retina-ok-si-300x99.png" ,Canal 4 Esquel (720p)
-https://stream.arcast.com.ar/canal4esquel/canal4esquel/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal4Jujuy.ar" tvg-logo="https://i.imgur.com/qB6I274.png" ,Canal 4 Jujuy (720p)
-http://190.52.32.13:1935/canal4/smil:manifest.smil/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal4ManchaCentro.es" tvg-logo="https://i.imgur.com/m9zXy8M.png" ,Canal 4 Mancha Centro (720p) [Not 24/7]
-https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal4Tenerife.es" tvg-logo="https://i.imgur.com/xs26Rhq.png" ,Canal 4 Tenerife (576p)
-https://5940924978228.streamlock.net/Directo4/Directo4/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal44.mx" tvg-logo="https://i.imgur.com/YDp8MlN.png" ,Canal 44 Chihuahua (720p) [Not 24/7]
-https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal50Morteros.ar" tvg-logo="https://canal50.tv/public/images/logos/C50_Blanco.png" ,Canal 50 (Morteros)
-https://coopmorteros.online/canal50/vivo.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal6EntreRios.ar" tvg-logo="https://lh3.googleusercontent.com/-WaPcoRIsunA/X9djlAdcgmI/AAAAAAAA8OA/zTZ4rmvloRkADrSVnucZuvR1pZZKhA9sACK8BGAsYHg/s0/2020-12-14.png" ,Canal 6 (Entre Ríos)
-https://stmvideo1.livecastv.com/canal6er/canal6er/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal6MardePlata.ar" tvg-logo="https://i.imgur.com/fNaIrvV.png" ,Canal 6 (Mar de Plata)
-https://59537faa0729a.streamlock.net/canal6mdp/canal6mdp/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal6Posadas.ar" tvg-logo="https://pbs.twimg.com/profile_images/1349114822844145665/g1zq6-8N_400x400.png" ,Canal 6 (Posadas)
-https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal6Nacional.mx" tvg-logo="https://i.imgur.com/Nlq6SYc.png" ,Canal 6 Nacional (720p) [Geo-blocked]
-https://mdstrm.com/live-stream-playlist/5f2d9d6ff17144074bd8a284.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal7Jujuy.ar" tvg-logo="https://i.imgur.com/K0jk8p4.png" ,Canal 7 (Jujuy)
-https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal7Salta.ar" tvg-logo="https://i.imgur.com/2pqxAuS.png" ,Canal 7 Salta (720p)
-https://panel.dattalive.com/8074/8074/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal74SanAntonio.cl" tvg-logo="https://i.imgur.com/W4uo3yM.png" ,Canal 74 (San Antonio) (720p)
-https://stmv1.zcastbr.com/canal74hd/canal74hd/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal79MardelPlata.ar" tvg-logo="https://lh3.googleusercontent.com/-2lmK8NorVYk/XrYMzuTInHI/AAAAAAAA0iI/vHb7JIABcJwCiHXJP9_HBl904RV7g6hPACK8BGAsYHg/s0/2020-05-08.png" ,Canal 79 (Mar del Plata)
-https://streamconex.com:1936/mardelplata/mardelplata/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal8MardelPlata.ar" tvg-logo="https://i.imgur.com/JQp1zsJ.jpg" ,Canal 8 Mar del Plata (720p)
-https://stream.arcast.com.ar/c8mdp/ngrp:c8mdp_all/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal9.ni" tvg-logo="https://i.imgur.com/rliwD3S.png" ,Canal 9
-http://138.117.4.70:8075/channel9/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal9BioBioTelevision.cl" tvg-logo="https://i.imgur.com/UnWMRrT.png" ,Canal 9 Bío Bío Televisión (1080p) [Not 24/7]
-https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal9Litoral.ar" tvg-logo="https://i2.paste.pics/216f13d3a32f35802881b19c2fa39554.png" ,Canal 9 Litoral
-https://stream.arcast.live/ahora/ahora/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal9RioCuarto.ar" tvg-logo="https://i2.paste.pics/a6e7d4bb67f0a6601e6db436a52e08dc.png" ,Canal 9 Río Cuarto
-https://streamcasthd.com:1936/canal9riocuartotv/canal9riocuartotv/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalAntigua.gt" tvg-logo="https://i.imgur.com/uyNWESl.png" ,Canal Antigua (1080p)
-https://streannlivefeedlatino.cachefly.net/feedlatino1/feedlatino1/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalCatorce.do" tvg-logo="https://i.imgur.com/N4kJyqm.png" ,Canal Catorce
-https://video.misistemareseller.com/catorcetv/catorcetv/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CNCCartagena.co" tvg-logo="https://i.imgur.com/dJHZfNt.png" ,Canal CNC Cartagena (Cartagena | Bolívar) (720p)
-https://cloud2.streaminglivehd.com:1936/8054/8054/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalCoop.ar" tvg-logo="https://lh3.googleusercontent.com/-aeAlzPyDNX8/Xx4DOKMNpHI/AAAAAAAA3gc/iN2_EZ7gS4URvFD9IB5tjQ6uJ_Qd7rPZwCK8BGAsYHg/s0/2020-07-26.png" ,Canal Coop
-https://panel.dattalive.com/8138/8138/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalI.ve" tvg-logo="https://i.imgur.com/SD1221X.png" ,Canal i (720p) [Not 24/7]
-https://vcp.myplaytv.com/canali/canali/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalLatino.cl" tvg-logo="https://i.imgur.com/uvo7FGG.png" ,Canal Latino (CL54) (360p)
-https://hd.chileservidores.cl:1936/latina/latina/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalProvincial.ar" tvg-logo="https://i.imgur.com/HCTvg6j.png" ,Canal Provincial (360p)
-https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalSurPatagonia.cl" tvg-logo="https://i.imgur.com/QSzeaVo.png" ,Canal Sur Patagonia
-https://v1.tustreaming.cl:19360/canalsurpatagoniatv/canalsurpatagoniatv.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalU.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_cba-24n_m.png" ,Canal U
-https://stream.arcast.live/canalu/canalu/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal10Nortevision.ar" tvg-logo="https://i.imgur.com/YFP2jJe.png" ,Canal10 Nortevision
-https://vivo.solumedia.com:19360/nortevision/nortevision.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalCosta.es" tvg-logo="https://www.canalcostatv.es/wp-content/uploads/2020/06/logo-cabecera-cc.png" ,Canalcosta TV
-https://5d8d85cf2c308.streamlock.net:1936/CanalcostaTV/WXP6YT/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="ChilecitoTV.ar" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLSwHrVBVcHJZK4iDbMiZlzq7-LmOuj-O2yGRyI0=s400-c-k-c0x00ffffff-no-rj" ,Chilecito TV
-https://vivo.solumedia.com:19360/grupoemail/grupoemail.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="ElNueve.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png" ,El Nueve (1080p)
-https://octubre-live.cdn.vustreams.com/live/channel09/live.isml/live.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="ElTrece.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Logo_de_eltrece_lanzado_en_2016.png/512px-Logo_de_eltrece_lanzado_en_2016.png" ,El Trece (1080p)
-https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Guatevision.gt" tvg-logo="https://i.imgur.com/AzTN4J9.png" ,Guatevisión
-https://prensalibre-live.cdn.vustreams.com/live/cd8f5328-7a1c-49d9-b318-9190858d1826/live.isml/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="WLIIDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png" ,TeleOnce (WLII-DT) (1080p)
-https://univision-live.cdn.vustreams.com/live/ce88b839-6376-4494-a2ee-83d66bc7cfc1/live.isml/ce88b839-6376-4494-a2ee-83d66bc7cfc1.m3u8
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | #VAMOS HD" tvg-logo="https://yt3.ggpht.com/a/AGF-l7_3hipWfqxC1DU2gFw10scr83r9wULwZ0j0Og=s900-c-k-c0xffffffff-no-rj-mo" ,DEPORTES | #VAMOS HD
-http://streamgo.vip:8008/200/200/127945
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="Deportes | Afizzionados HD" tvg-logo="http://streamgo.vip:8008/images/25ef4635bc5818efc86042ee0ddb11cc.jpg" ,Deportes | Afizzionados HD
-http://streamgo.vip:8008/200/200/127947
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | AyM Sports" tvg-logo="http://streamgo.vip:8008/images/44602ac0c38aa1a23f956d9a138919ce.jpg" ,DEPORTES | AyM Sports
-http://streamgo.vip:8008/200/200/127948
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | BARÇA TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJdk8OB6ryqByIqfV1RkM31UiR600YmFxq_J1i_U82EIVqbAPx&s" ,DEPORTES | BARÇA TV
-http://streamgo.vip:8008/200/200/127949
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | Bein Sports 4" tvg-logo="http://streamgo.vip:8008/images/8f87a82f4e73c67e61d1eaa2cf493475.jpg" ,DEPORTES | Bein Sports 4
-http://streamgo.vip:8008/200/200/127951
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | Bein sports 2" tvg-logo="http://streamgo.vip:8008/images/8f87a82f4e73c67e61d1eaa2cf493475.jpg" ,DEPORTES | Bein sports 2
-http://streamgo.vip:8008/200/200/127955
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | BEIN SPORTS Ñ" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVnKAe9OFWsENFtkwYjbqqgiW0l0lAbBLupD9VnuWy6C91dOR8&s" ,DEPORTES | BEIN SPORTS Ñ
-http://streamgo.vip:8008/200/200/127957
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | BEIN SPORTS Ñ" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVnKAe9OFWsENFtkwYjbqqgiW0l0lAbBLupD9VnuWy6C91dOR8&s" ,DEPORTES | BEIN SPORTS Ñ
-http://streamgo.vip:8008/200/200/127958
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | Bein Sports Ñ HD" tvg-logo="http://streamgo.vip:8008/images/8f87a82f4e73c67e61d1eaa2cf493475.jpg" ,DEPORTES | Bein Sports Ñ HD
-http://streamgo.vip:8008/200/200/127959
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | DIRECTV SPORT + HD" tvg-logo="http://streamgo.vip:8008/images/3e3b995fe19c7c1ab54f8a302ae04b94.png" ,DEPORTES | DIRECTV SPORT + HD
-http://streamgo.vip:8008/200/200/127962
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | DIRECTV SPORTS 1 HD" tvg-logo="http://streamgo.vip:8008/images/3e3b995fe19c7c1ab54f8a302ae04b94.png" ,DEPORTES | DIRECTV SPORTS 1 HD
-http://streamgo.vip:8008/200/200/127964
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | DIRECTV SPORTS 1 SD" tvg-logo="http://streamgo.vip:8008/images/3e3b995fe19c7c1ab54f8a302ae04b94.png" ,DEPORTES | DIRECTV SPORTS 1 SD
-http://streamgo.vip:8008/200/200/127965
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | DIRECTV SPORTS 2" tvg-logo="http://streamgo.vip:8008/images/4907fe4582f465f8ef13ec7a8c6b4bbe.png" ,DEPORTES | DIRECTV SPORTS 2
-http://streamgo.vip:8008/200/200/127966
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | DIRECTV SPORTS 2 SD" tvg-logo="http://streamgo.vip:8008/images/4907fe4582f465f8ef13ec7a8c6b4bbe.png" ,DEPORTES | DIRECTV SPORTS 2 SD
-http://streamgo.vip:8008/200/200/127967
-#EXTINF:-1 group-title="Deporte ⚽" tvg-id="expn.cl" tvg-name="DEPORTES | ESPN SD" tvg-logo="http://streamgo.vip:8008/images/669465c0bb8b14bd996ebeb2e1b3d0da.png" ,DEPORTES | ESPN SD
-http://streamgo.vip:8008/200/200/127970
-#EXTINF:-1 group-title="Deporte ⚽" tvg-id="expn.cl" tvg-name="DEPORTES | ESPN HD" tvg-logo="http://streamgo.vip:8008/images/669465c0bb8b14bd996ebeb2e1b3d0da.png" ,DEPORTES | ESPN HD
-http://streamgo.vip:8008/200/200/127971
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | ESPN 2" tvg-logo="http://streamgo.vip:8008/images/06f8b949029a4cf1f5b2021eed2e8159.png" ,DEPORTES | ESPN 2
-http://streamgo.vip:8008/200/200/127972
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | ESPN 2 HD" tvg-logo="http://streamgo.vip:8008/images/06f8b949029a4cf1f5b2021eed2e8159.png" ,DEPORTES | ESPN 2 HD
-http://streamgo.vip:8008/200/200/127973
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | ESPN 3 HD" tvg-logo="http://streamgo.vip:8008/images/65b140dd9ebf0ec2b2a8c1565fa90080.png" ,DEPORTES | ESPN 3 HD
-http://streamgo.vip:8008/200/200/127974
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | ESPN 4" tvg-logo="http://streamgo.vip:8008/images/9c83acb71e6f939bae03936d2c827d7c.png" ,DEPORTES | ESPN 4
-http://streamgo.vip:8008/200/200/127975
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | ESPN 2" tvg-logo="http://streamgo.vip:8008/images/06f8b949029a4cf1f5b2021eed2e8159.png" ,DEPORTES | ESPN 2
-http://streamgo.vip:8008/200/200/127976
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | ESPN 4 SD" tvg-logo="http://streamgo.vip:8008/images/9c83acb71e6f939bae03936d2c827d7c.png" ,DEPORTES | ESPN 4 SD
-http://streamgo.vip:8008/200/200/127977
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | ESPN DEPORTES HD" tvg-logo="http://streamgo.vip:8008/images/9e0f4764c088f7c5ebae1d1d2241de0b.png" ,DEPORTES | ESPN DEPORTES HD
-http://streamgo.vip:8008/200/200/127978
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | ESPN U" tvg-logo="http://streamgo.vip:8008/images/b0cdc75f14929c0b7054e88a0628dacf.jpg" ,DEPORTES | ESPN U
-http://streamgo.vip:8008/200/200/127980
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | F1" tvg-logo="http://cdn-flac.ficfiles.com/sites/foxsports-la/files/img/140x105/formula1.png?ver=fc0d8b39-fd84-4a0d-8ff0-d50309a754c4" ,DEPORTES | F1
-http://streamgo.vip:8008/200/200/127984
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | FOX SPORTS 2" tvg-logo="http://streamgo.vip:8008/images/5c9d7aa673c9066a7362bb4eb6a67830.png" ,DEPORTES | FOX SPORTS 2
-http://streamgo.vip:8008/200/200/127992
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | FOX SPORTS 3" tvg-logo="http://streamgo.vip:8008/images/5c9d7aa673c9066a7362bb4eb6a67830.png" ,DEPORTES | FOX SPORTS 3
-http://streamgo.vip:8008/200/200/127994
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | FOX SPORTS 3 HDS" tvg-logo="http://streamgo.vip:8008/images/6ee0e8bd2c5eec8aa7e936a2e7e0c9ab.png" ,DEPORTES | FOX SPORTS 3 HD
-http://streamgo.vip:8008/200/200/127995
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | FOX SPORTS MX" tvg-logo="http://streamgo.vip:8008/images/6ee0e8bd2c5eec8aa7e936a2e7e0c9ab.png" ,DEPORTES | FOX SPORTS MX
-http://streamgo.vip:8008/200/200/127996
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | FOX SPORTS MX 2" tvg-logo="http://streamgo.vip:8008/images/e84f5f9be9671d67d9d259c7188920f9.png" ,DEPORTES | FOX SPORTS MX 2
-http://streamgo.vip:8008/200/200/127997
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | GOL PERU" tvg-logo="https://yt3.ggpht.com/a/AGF-l7_mze_2cz9a53r1alrxN2V_hj6D6QNbbAuRIg=s900-c-k-c0xffffffff-no-rj-mo" ,DEPORTES | GOL PERU
-http://streamgo.vip:8008/200/200/128002
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | MOVISTAR F1 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtjXX7xq6KMk3gW1coW8diaxL4XTPzPPGXpXbi9Tpl6SmXSDbd&s" ,DEPORTES | MOVISTAR F1 HD
-http://streamgo.vip:8008/200/200/128012
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | SPORTV" tvg-logo="http://streamgo.vip:8008/images/d009191504e2c17a1f6c1598498cecda.png" ,DEPORTES | SPORTV
-http://streamgo.vip:8008/200/200/128026
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | TVG" tvg-logo="http://streamgo.vip:8008/images/0e6a46b2fb068360f5da44c5ce317be8.png" ,DEPORTES | TVG
-http://streamgo.vip:8008/200/200/128036
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | TVG 2" tvg-logo="http://streamgo.vip:8008/images/5f26a369ef9b54dd426f306794a703af.jpg" ,DEPORTES | TVG 2
-http://streamgo.vip:8008/200/200/128037
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | TyC Sports" tvg-logo="http://streamgo.vip:8008/images/35f7fb41bd0177dc485ebd837da289f7.png" ,DEPORTES | TyC Sports
-http://streamgo.vip:8008/200/200/128038
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | UFC TV" tvg-logo="http://streamgo.vip:8008/images/5e51b4925b33d3b742eb573486357ae0.png" ,DEPORTES | UFC TV
-http://streamgo.vip:8008/200/200/128039
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | Win Sports" tvg-logo="http://streamgo.vip:8008/images/9ec9d455644c55213e67f6b1f827f2d8.jpg" ,DEPORTES | Win Sports
-http://streamgo.vip:8008/200/200/128040
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | Win Sports +" tvg-logo="http://streamgo.vip:8008/images/9ec9d455644c55213e67f6b1f827f2d8.jpg" ,DEPORTES | Win Sports +
-http://streamgo.vip:8008/200/200/128041
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEP| NBA TV" tvg-logo="http://streamgo.vip:8008/images/e0e4384a68db2ede1a700b17112507e9.png" ,DEP| NBA TV
-http://streamgo.vip:8008/200/200/146876
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | FOX SPORTS 1 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNxi4gCApcU3HLs00cxRcFY6DFADcYDkgjiQ&usqp=CAU" ,AR | FOX SPORTS 1 HD
-http://streamgo.vip:8008/200/200/158963
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | FOX SPORTS 1 SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNxi4gCApcU3HLs00cxRcFY6DFADcYDkgjiQ&usqp=CAU" ,AR | FOX SPORTS 1 SD
-http://streamgo.vip:8008/200/200/158964
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | FOX SPORTS 2 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNxi4gCApcU3HLs00cxRcFY6DFADcYDkgjiQ&usqp=CAU" ,AR | FOX SPORTS 2 HD
-http://streamgo.vip:8008/200/200/158965
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | FOX SPORTS 3 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNxi4gCApcU3HLs00cxRcFY6DFADcYDkgjiQ&usqp=CAU" ,AR | FOX SPORTS 3 HD
-http://streamgo.vip:8008/200/200/158966
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | FOX SPORTS 3 SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNxi4gCApcU3HLs00cxRcFY6DFADcYDkgjiQ&usqp=CAU" ,AR | FOX SPORTS 3 SD
-http://streamgo.vip:8008/200/200/158967
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | TELEFE HD" tvg-logo="https://yt3.ggpht.com/uaMgzd4i0iGHxpaBRJVYFYRpWBWBqDJdhysytSXMKvtEo1AsLWj1KIqaMWzMP8q-8MCHRq-_UQ=s900-c-k-c0x00ffffff-no-rj" ,AR | TELEFE HD
-http://streamgo.vip:8008/200/200/158968
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | TELEFE HD - 02" tvg-logo="https://yt3.ggpht.com/uaMgzd4i0iGHxpaBRJVYFYRpWBWBqDJdhysytSXMKvtEo1AsLWj1KIqaMWzMP8q-8MCHRq-_UQ=s900-c-k-c0x00ffffff-no-rj" ,AR | TELEFE HD - 02
-http://streamgo.vip:8008/200/200/158969
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | TNT SPORTS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNzRaEF7sInMKci-9xC-vXIBVl7h2h9v35ww&usqp=CAU" ,AR | TNT SPORTS HD
-http://streamgo.vip:8008/200/200/158970
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | TNT SPORTS SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNzRaEF7sInMKci-9xC-vXIBVl7h2h9v35ww&usqp=CAU" ,AR | TNT SPORTS SD
-http://streamgo.vip:8008/200/200/158971
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR  | TYC SPORTS SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu094m8UMzCN8OqX-0NNd4X8Zw7ovhNs1N5w&usqp=CAU" ,AR  | TYC SPORTS SD
-http://streamgo.vip:8008/200/200/158973
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | ESPN PREMIUM HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiTXfM0ZeYf2m5FbMtVCdFnFEue0bcAiCafQ&usqp=CAU" ,AR | ESPN PREMIUM HD
-http://streamgo.vip:8008/200/200/158974
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | ESPN PREMIUM SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiTXfM0ZeYf2m5FbMtVCdFnFEue0bcAiCafQ&usqp=CAU" ,AR | ESPN PREMIUM SD
-http://streamgo.vip:8008/200/200/158975
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | ESPN 1 SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzPF7o555O8KtseEn-GAIlp4pYbtLgMUcbGQ&usqp=CAU" ,AR | ESPN 1 SD
-http://streamgo.vip:8008/200/200/158977
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | ESPN 2 SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzPF7o555O8KtseEn-GAIlp4pYbtLgMUcbGQ&usqp=CAU" ,AR | ESPN 2 SD
-http://streamgo.vip:8008/200/200/158979
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | DEPOR TV HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrG5tgUlK-9tZFIvlaYrszEOhe9HTZmHa36g&usqp=CAU" ,AR | DEPOR TV HD
-http://streamgo.vip:8008/200/200/158980
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | DEPOR TV SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrG5tgUlK-9tZFIvlaYrszEOhe9HTZmHa36g&usqp=CAU" ,AR | DEPOR TV SD
-http://streamgo.vip:8008/200/200/158981
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | TV PUBLICA FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6qM7GfDTvfBO-q63HLUW-QsbNWXiZEwqhkw&usqp=CAU" ,AR | TV PUBLICA FHD
-http://streamgo.vip:8008/200/200/158982
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | TV PUBLICA HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6qM7GfDTvfBO-q63HLUW-QsbNWXiZEwqhkw&usqp=CAU" ,AR | TV PUBLICA HD
-http://streamgo.vip:8008/200/200/158983
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | CANAL 13 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUxd6vjCPiTZWnhGdbdAMoqNTZGbzvCHO1A&usqp=CAU" ,AR | CANAL 13 HD
-http://streamgo.vip:8008/200/200/158985
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | CANAL 13 SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUxd6vjCPiTZWnhGdbdAMoqNTZGbzvCHO1A&usqp=CAU" ,AR | CANAL 13 SD
-http://streamgo.vip:8008/200/200/158986
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | EL NUEVE FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmX8tjoTHylcaDD3_48yzo6Nzx50MjRojLPA&usqp=CAU" ,AR | EL NUEVE FHD
-http://streamgo.vip:8008/200/200/158987
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | EL NUEVE HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmX8tjoTHylcaDD3_48yzo6Nzx50MjRojLPA&usqp=CAU" ,AR | EL NUEVE HD
-http://streamgo.vip:8008/200/200/158988
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | EL NUEVE SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmX8tjoTHylcaDD3_48yzo6Nzx50MjRojLPA&usqp=CAU" ,AR | EL NUEVE SD
-http://streamgo.vip:8008/200/200/158989
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | C5N HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhvEHUTKugnqQz7G_9UHyVDuyf_wGYWdQblw&usqp=CAU" ,AR | C5N HD
-http://streamgo.vip:8008/200/200/158991
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | VOLVER" tvg-logo="http://127.0.0.1/" ,AR | VOLVER
-http://streamgo.vip:8008/200/200/158992
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | AMERICA TV HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fgLDmFN8t0LWvb7rkI6ZCCiRJWEQheswpg&usqp=CAU" ,AR | AMERICA TV HD
-http://streamgo.vip:8008/200/200/158993
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | AMERICA TV FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fgLDmFN8t0LWvb7rkI6ZCCiRJWEQheswpg&usqp=CAU" ,AR | AMERICA TV FHD
-http://streamgo.vip:8008/200/200/158994
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | Telefe HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUMa6b30HJG6XO79tuoAQ959n0gEh6oSg-A&usqp=CAU" ,AR | Telefe HD
-http://streamgo.vip:8008/200/200/158996
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | A24 HD" tvg-logo="http://streamgo.vip:8008/images/0b6c9541391388930f23bff580fa9156.png" ,AR | A24 HD
-http://streamgo.vip:8008/200/200/158997
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | A24 sd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/A24_%282019-1%29.png" ,AR | A24 sd
-http://streamgo.vip:8008/200/200/158998
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | CRONICA HD" tvg-logo="http://127.0.0.1/" ,AR | CRONICA HD
-http://streamgo.vip:8008/200/200/158999
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | ENCUENTRO HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmUVWZIKiaE3oHhyEntpWB8lz1Llhn17K3zA&usqp=CAU" ,AR | ENCUENTRO HD
-http://streamgo.vip:8008/200/200/159000
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | ENCUENTRO SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmUVWZIKiaE3oHhyEntpWB8lz1Llhn17K3zA&usqp=CAU" ,AR | ENCUENTRO SD
-http://streamgo.vip:8008/200/200/159001
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR-| CANAL 26 NOTICIAS SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxTPhW_bp7ia83Wwb8ZtN0sE-dqon-Uuj6w&usqp=CAU" ,AR-| CANAL 26 NOTICIAS SD
-http://streamgo.vip:8008/200/200/159003
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR-| EL GARAGE TV HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRL_0iZ7hJH2d4qbdZ73r_qkKqe8ws4rNkLg&usqp=CAU" ,AR-| EL GARAGE TV HD
-http://streamgo.vip:8008/200/200/159008
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR-| LN+" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH8f5raMcEwss9lSlka2g6ppZPj2EnFlJwIw&usqp=CAU" ,AR-| LN+
-http://streamgo.vip:8008/200/200/159009
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | NOTICIAS NT HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkeFcQtno1fsHYYXHfJDWiBL1fOKmYBjMPVw&usqp=CAU" ,AR | NOTICIAS NT HD
-http://streamgo.vip:8008/200/200/159010
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | NOTICIAS NT SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkeFcQtno1fsHYYXHfJDWiBL1fOKmYBjMPVw&usqp=CAU" ,AR | NOTICIAS NT SD
-http://streamgo.vip:8008/200/200/159011
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | MAS CHIC HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFVPxtfPGqdC6sq8ijhoEDpZJu9mNYTnHxOg&usqp=CAU" ,AR | MAS CHIC HD
-http://streamgo.vip:8008/200/200/159012
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | MAS CHIC SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFVPxtfPGqdC6sq8ijhoEDpZJu9mNYTnHxOg&usqp=CAU" ,AR | MAS CHIC SD
-http://streamgo.vip:8008/200/200/159013
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="AR | CIUDAD MAGAZINE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-o6s4OgcMxwPQtbZu9jpnF4uG99P11vehg&usqp=CAU" ,AR | CIUDAD MAGAZINE
-http://streamgo.vip:8008/200/200/159014
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="ARG: TV Universidad Nacional de La Plata" tvg-logo="http://titanlivetv.com:8080/images/8a49033cd46d3770856277a76d68eac7.png" ,ARG: TV Universidad Nacional de La Plata
-http://streamgo.vip:8008/200/200/159016
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="ARG: Canal 10 Mar del Plata" tvg-logo="http://127.0.0.1/" ,ARG: Canal 10 Mar del Plata
-http://streamgo.vip:8008/200/200/159017
-#EXTINF:-1 group-title="Argentina ⭐" tvg-name="Canal 3 Rosario | AR" tvg-logo="http://streamgo.vip:8008/images/6d7c6593d1292409ebd6541fd4376ccb.png" ,Canal 3 Rosario | AR
-http://streamgo.vip:8008/200/200/159018
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Baby First" tvg-logo="http://streamgo.vip:8008/images/5569d23a30e46bb5997dc054944a792c.png" ,Baby First
-http://streamgo.vip:8008/200/200/160111
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Baby Tv" tvg-logo="http://www.skytvpluzz.online:8000/images/c44f00e448578aec38a71f0a3002e53c.png" ,Baby Tv
-http://streamgo.vip:8008/200/200/160112
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Cartoon Network" tvg-logo="http://www.skytvpluzz.online:8000/images/338608dbfa0b80564bd882b6911ecda9.png" ,Cartoon Network
-http://streamgo.vip:8008/200/200/160113
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Disney Channel" tvg-logo="http://www.skytvpluzz.online:8000/images/79a7a0b80fa050e0dbec84f30f15c09b.png" ,Disney Channel
-http://streamgo.vip:8008/200/200/160114
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Discovery Kids" tvg-logo="http://www.skytvpluzz.online:8000/images/5be0a94a27b0a19e4cd1229fa50f8735.png" ,Discovery Kids
-http://streamgo.vip:8008/200/200/160115
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Disney Junior" tvg-logo="http://streamgo.vip:8008/images/a3a8005558104f9ff3370bcc55bbe377.png" ,Disney Junior
-http://streamgo.vip:8008/200/200/160116
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Nick" tvg-logo="http://www.skytvpluzz.online:8000/images/ad9e9b9a87f44a49a11fe28b8accfa93.png" ,Nick
-http://streamgo.vip:8008/200/200/160117
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Nick 2" tvg-logo="http://www.skytvpluzz.online:8000/images/2e38730ff5e12fcc181107ccbe03a357.png" ,Nick 2
-http://streamgo.vip:8008/200/200/160118
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Nick Junior" tvg-logo="http://www.skytvpluzz.online:8000/images/0ae8b92d2573e2e568d5dd70bd7a9bea.png" ,Nick Junior
-http://streamgo.vip:8008/200/200/160119
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Baby TV" tvg-logo="http://www.skytvpluzz.online:8000/images/c44f00e448578aec38a71f0a3002e53c.png" ,Baby TV
-http://streamgo.vip:8008/200/200/160121
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Baby Tv" tvg-logo="http://www.skytvpluzz.online:8000/images/c44f00e448578aec38a71f0a3002e53c.png" ,Baby Tv
-http://streamgo.vip:8008/200/200/160122
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Cartoon Network" tvg-logo="http://www.skytvpluzz.online:8000/images/338608dbfa0b80564bd882b6911ecda9.png" ,Cartoon Network
-http://streamgo.vip:8008/200/200/160123
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Disney Channel" tvg-logo="http://www.skytvpluzz.online:8000/images/79a7a0b80fa050e0dbec84f30f15c09b.png" ,Disney Channel
-http://streamgo.vip:8008/200/200/160124
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Discovery Kids" tvg-logo="http://www.skytvpluzz.online:8000/images/5be0a94a27b0a19e4cd1229fa50f8735.png" ,Discovery Kids
-http://streamgo.vip:8008/200/200/160125
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Disney Junior" tvg-logo="http://streamgo.vip:8008/images/a3a8005558104f9ff3370bcc55bbe377.png" ,Disney Junior
-http://streamgo.vip:8008/200/200/160126
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Cartoon Network" tvg-logo="http://www.skytvpluzz.online:8000/images/338608dbfa0b80564bd882b6911ecda9.png" ,Cartoon Network
-http://streamgo.vip:8008/200/200/160127
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Disney Channel" tvg-logo="http://www.skytvpluzz.online:8000/images/79a7a0b80fa050e0dbec84f30f15c09b.png" ,Disney Channel
-http://streamgo.vip:8008/200/200/160128
-#EXTINF:-1 group-title="Infantiles ⭐" tvg-name="Discovery Kids" tvg-logo="http://www.skytvpluzz.online:8000/images/5be0a94a27b0a19e4cd1229fa50f8735.png" ,Discovery Kids
-http://streamgo.vip:8008/200/200/160129
-#EXTINF:-1 group-title="Undefined" tvg-id="CampoTelevision.co" tvg-logo="https://canalcampotv.com/wp-content/uploads/2020/05/logo.png" ,Campo Televisión (Santa Marta)
-https://video17.virtualtronics.com/streamer/canalcampotv.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal10SanRafael.ar" tvg-logo="https://i.imgur.com/teoaBPx.png" ,Canal 10 San Rafael (480p)
-https://streamcasthd.com:1936/tvdiez/tvdiez/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Canal21TV.ar" tvg-logo="https://www.canal21tv.com.ar/images/00Logo_canal_21_nuevo_02.png" ,Canal 21 TV
-https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalDonana.es" tvg-logo="https://i.imgur.com/bK9RvdM.png" ,Canal Doñana (720p) [Not 24/7]
-https://secure5.todostreaming.es/live/division-alm.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalPyC.co" tvg-logo="https://canalpyc.com/wp-content/uploads/2020/03/logo_blanco1-e1583948519322.png" ,Canal PyC [Not 24/7]
-http://66.240.236.26:1935/canalpycvivo/canalpycvivo/canalpycvivo/playlist.m3u8
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | ESPN +" tvg-logo="http://streamgo.vip:8008/images/9c280460d9ca687a033e0481601bd02e.png" ,DEPORTES | ESPN +
-http://streamgo.vip:8008/200/200/127969
-#EXTINF:-1 group-title="Deporte ⚽" tvg-name="DEPORTES | Fox Deportes" tvg-logo="http://streamgo.vip:8008/images/207323f8c27f7de71c07ba011fb03205.png" ,DEPORTES | Fox Deportes
-http://streamgo.vip:8008/200/200/127987
+#EXTM3U
+
+#EXTINF:-1 tvg-id="" tvg-name="Event 1" tvg-logo="http://tv.streamid.tv:8080/images/86dbfa05f9f2cd642787195cf673b3fc.jpg" group-title="PPL EVENT",Event 1 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/18
+#EXTINF:-1 tvg-id="" tvg-name="Event 2" tvg-logo="http://tv.streamid.tv:8080/images/86dbfa05f9f2cd642787195cf673b3fc.jpg" group-title="PPL EVENT",Event 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/19
+#EXTINF:-1 tvg-id="" tvg-name="Event 3" tvg-logo="http://tv.streamid.tv:8080/images/86dbfa05f9f2cd642787195cf673b3fc.jpg" group-title="PPL EVENT",Event 3
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/20
+#EXTINF:-1 tvg-id="" tvg-name="Event 4" tvg-logo="http://tv.streamid.tv:8080/images/86dbfa05f9f2cd642787195cf673b3fc.jpg" group-title="PPL EVENT",Event 4
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/21
+#EXTINF:-1 tvg-id="" tvg-name="Event 5" tvg-logo="http://tv.streamid.tv:8080/images/86dbfa05f9f2cd642787195cf673b3fc.jpg" group-title="PPL EVENT",Event 5
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/22
+#EXTINF:-1 tvg-id="" tvg-name="NFL 1 -" tvg-logo="" group-title="NFL",NFL 1 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3227
+#EXTINF:-1 tvg-id="" tvg-name="NFL 2 -" tvg-logo="" group-title="NFL",NFL 2 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3228
+#EXTINF:-1 tvg-id="" tvg-name="NFL 3 -" tvg-logo="" group-title="NFL",NFL 3 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3229
+#EXTINF:-1 tvg-id="" tvg-name="NFL 4 -" tvg-logo="" group-title="NFL",NFL 4 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3230
+#EXTINF:-1 tvg-id="" tvg-name="NFL 5 -" tvg-logo="" group-title="NFL",NFL 5 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3231
+#EXTINF:-1 tvg-id="" tvg-name="NFL 6 -" tvg-logo="" group-title="NFL",NFL 6 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3232
+#EXTINF:-1 tvg-id="" tvg-name="NFL 7 -" tvg-logo="" group-title="NFL",NFL 7 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3233
+#EXTINF:-1 tvg-id="" tvg-name="NFL 8 -" tvg-logo="" group-title="NFL",NFL 8 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3234
+#EXTINF:-1 tvg-id="" tvg-name="NFL  9 -" tvg-logo="" group-title="NFL",NFL  9 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3235
+#EXTINF:-1 tvg-id="" tvg-name="NFL 10 -" tvg-logo="" group-title="NFL",NFL 10 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3236
+#EXTINF:-1 tvg-id="" tvg-name="NFL 11 -" tvg-logo="" group-title="NFL",NFL 11 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3237
+#EXTINF:-1 tvg-id="" tvg-name="NFL 12 -" tvg-logo="" group-title="NFL",NFL 12 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3238
+#EXTINF:-1 tvg-id="" tvg-name="NFL 13 -" tvg-logo="" group-title="NFL",NFL 13 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3239
+#EXTINF:-1 tvg-id="" tvg-name="NFL 14 -" tvg-logo="" group-title="NFL",NFL 14 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3240
+#EXTINF:-1 tvg-id="" tvg-name="NFL 15 -" tvg-logo="" group-title="NFL",NFL 15 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3241
+#EXTINF:-1 tvg-id="" tvg-name="NHL 1 -" tvg-logo="" group-title="NHL",NHL 1 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3242
+#EXTINF:-1 tvg-id="" tvg-name="NHL 2 -" tvg-logo="" group-title="NHL",NHL 2 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3243
+#EXTINF:-1 tvg-id="" tvg-name="NHL 3 -" tvg-logo="" group-title="NHL",NHL 3 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3244
+#EXTINF:-1 tvg-id="" tvg-name="NHL 4 -" tvg-logo="" group-title="NHL",NHL 4 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3245
+#EXTINF:-1 tvg-id="" tvg-name="NHL 5 -" tvg-logo="" group-title="NHL",NHL 5 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3246
+#EXTINF:-1 tvg-id="" tvg-name="NHL 6 -" tvg-logo="" group-title="NHL",NHL 6 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3247
+#EXTINF:-1 tvg-id="" tvg-name="NHL 7 -" tvg-logo="" group-title="NHL",NHL 7 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3248
+#EXTINF:-1 tvg-id="" tvg-name="NHL 8 -" tvg-logo="" group-title="NHL",NHL 8 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3249
+#EXTINF:-1 tvg-id="" tvg-name="NHL 9 -" tvg-logo="" group-title="NHL",NHL 9 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3250
+#EXTINF:-1 tvg-id="" tvg-name="NHL 10 -" tvg-logo="" group-title="NHL",NHL 10 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3251
+#EXTINF:-1 tvg-id="" tvg-name="NHL 11 -" tvg-logo="" group-title="NHL",NHL 11 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3252
+#EXTINF:-1 tvg-id="" tvg-name="NHL 12 -" tvg-logo="" group-title="NHL",NHL 12 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3253
+#EXTINF:-1 tvg-id="" tvg-name="NHL 13 -" tvg-logo="" group-title="NHL",NHL 13 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3254
+#EXTINF:-1 tvg-id="" tvg-name="MLS 01 -" tvg-logo="" group-title="MLS",MLS 01 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3260
+#EXTINF:-1 tvg-id="" tvg-name="MLS 02 -" tvg-logo="" group-title="MLS",MLS 02 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3261
+#EXTINF:-1 tvg-id="" tvg-name="MLS 03 -" tvg-logo="" group-title="MLS",MLS 03 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3262
+#EXTINF:-1 tvg-id="" tvg-name="MLS 04" tvg-logo="" group-title="MLS",MLS 04
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3263
+#EXTINF:-1 tvg-id="" tvg-name="MLS 05" tvg-logo="" group-title="MLS",MLS 05
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3264
+#EXTINF:-1 tvg-id="" tvg-name="MLS 06" tvg-logo="" group-title="MLS",MLS 06
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3265
+#EXTINF:-1 tvg-id="" tvg-name="MLS 07" tvg-logo="" group-title="MLS",MLS 07
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3266
+#EXTINF:-1 tvg-id="" tvg-name="MLS 08" tvg-logo="" group-title="MLS",MLS 08
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3267
+#EXTINF:-1 tvg-id="" tvg-name="Event 6:" tvg-logo="" group-title="MLS",Event 6:
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3268
+#EXTINF:-1 tvg-id="" tvg-name="MLB 1 -" tvg-logo="" group-title="MLB",MLB 1 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3115
+#EXTINF:-1 tvg-id="" tvg-name="MLB 2  -" tvg-logo="" group-title="MLB",MLB 2  -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3116
+#EXTINF:-1 tvg-id="" tvg-name="MLB 4 -" tvg-logo="" group-title="MLB",MLB 4 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3118
+#EXTINF:-1 tvg-id="" tvg-name="MLB 15 -" tvg-logo="" group-title="MLB",MLB 15 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3129
+#EXTINF:-1 tvg-id="" tvg-name="MLB 14 -" tvg-logo="" group-title="MLB",MLB 14 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3128
+#EXTINF:-1 tvg-id="" tvg-name="MLB 13 -" tvg-logo="" group-title="MLB",MLB 13 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3127
+#EXTINF:-1 tvg-id="" tvg-name="MLB 11 -" tvg-logo="" group-title="MLB",MLB 11 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3125
+#EXTINF:-1 tvg-id="" tvg-name="MLB 10 -" tvg-logo="" group-title="MLB",MLB 10 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3124
+#EXTINF:-1 tvg-id="" tvg-name="MLB 9 -" tvg-logo="" group-title="MLB",MLB 9 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3123
+#EXTINF:-1 tvg-id="" tvg-name="MLB 12 -" tvg-logo="" group-title="MLB",MLB 12 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3126
+#EXTINF:-1 tvg-id="" tvg-name="MLB 7 -" tvg-logo="" group-title="MLB",MLB 7 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3121
+#EXTINF:-1 tvg-id="" tvg-name="MLB 6 -" tvg-logo="" group-title="MLB",MLB 6 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3120
+#EXTINF:-1 tvg-id="" tvg-name="MLB 5 -" tvg-logo="" group-title="MLB",MLB 5 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3119
+#EXTINF:-1 tvg-id="" tvg-name="MLB 8 -" tvg-logo="" group-title="MLB",MLB 8 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3122
+#EXTINF:-1 tvg-id="" tvg-name="MLB 3 -" tvg-logo="" group-title="MLB",MLB 3 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3117
+#EXTINF:-1 tvg-id="" tvg-name="NBA 01" tvg-logo="" group-title="NBA",NBA 01
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3043
+#EXTINF:-1 tvg-id="" tvg-name="NBA 02" tvg-logo="" group-title="NBA",NBA 02
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3044
+#EXTINF:-1 tvg-id="" tvg-name="NBA 03" tvg-logo="" group-title="NBA",NBA 03
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3045
+#EXTINF:-1 tvg-id="" tvg-name="NBA 04" tvg-logo="" group-title="NBA",NBA 04
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3046
+#EXTINF:-1 tvg-id="" tvg-name="NBA 05" tvg-logo="" group-title="NBA",NBA 05
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3047
+#EXTINF:-1 tvg-id="" tvg-name="NBA 06" tvg-logo="" group-title="NBA",NBA 06
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3048
+#EXTINF:-1 tvg-id="" tvg-name="NBA 07" tvg-logo="" group-title="NBA",NBA 07
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3049
+#EXTINF:-1 tvg-id="" tvg-name="NBA 08" tvg-logo="" group-title="NBA",NBA 08
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3050
+#EXTINF:-1 tvg-id="" tvg-name="NBA 09" tvg-logo="" group-title="NBA",NBA 09
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3051
+#EXTINF:-1 tvg-id="" tvg-name="NBA 10" tvg-logo="" group-title="NBA",NBA 10
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3052
+#EXTINF:-1 tvg-id="" tvg-name="NBA 11" tvg-logo="" group-title="NBA",NBA 11
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3053
+#EXTINF:-1 tvg-id="" tvg-name="NBA 12" tvg-logo="" group-title="NBA",NBA 12
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3054
+#EXTINF:-1 tvg-id="" tvg-name="NBA 13" tvg-logo="" group-title="NBA",NBA 13
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3055
+#EXTINF:-1 tvg-id="" tvg-name="NBA 14" tvg-logo="" group-title="NBA",NBA 14
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3056
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 01 -" tvg-logo="" group-title="Soccer",Soccer 01 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3439
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 02 -" tvg-logo="" group-title="Soccer",Soccer 02 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3440
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 03 -" tvg-logo="" group-title="Soccer",Soccer 03 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3441
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 04 -" tvg-logo="" group-title="Soccer",Soccer 04 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3442
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 05 -" tvg-logo="" group-title="Soccer",Soccer 05 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3443
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 06 -" tvg-logo="" group-title="Soccer",Soccer 06 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3444
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 07 -" tvg-logo="" group-title="Soccer",Soccer 07 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3445
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 08 -" tvg-logo="" group-title="Soccer",Soccer 08 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3446
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 09 -" tvg-logo="" group-title="Soccer",Soccer 09 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3447
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 10 -" tvg-logo="" group-title="Soccer",Soccer 10 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3448
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 11 -" tvg-logo="" group-title="Soccer",Soccer 11 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3449
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 12 -" tvg-logo="" group-title="Soccer",Soccer 12 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3450
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 13 -" tvg-logo="" group-title="Soccer",Soccer 13 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3451
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 14 -" tvg-logo="" group-title="Soccer",Soccer 14 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3452
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 15 -" tvg-logo="" group-title="Soccer",Soccer 15 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3453
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 16 -" tvg-logo="" group-title="Soccer",Soccer 16 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3454
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 17 -" tvg-logo="" group-title="Soccer",Soccer 17 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3455
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 18 -" tvg-logo="" group-title="Soccer",Soccer 18 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3456
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 19 -" tvg-logo="" group-title="Soccer",Soccer 19 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3457
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 20 -" tvg-logo="" group-title="Soccer",Soccer 20 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3458
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 21 -" tvg-logo="" group-title="Soccer",Soccer 21 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3459
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 22 -" tvg-logo="" group-title="Soccer",Soccer 22 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3460
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 23 -" tvg-logo="" group-title="Soccer",Soccer 23 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3461
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 24 -" tvg-logo="" group-title="Soccer",Soccer 24 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3462
+#EXTINF:-1 tvg-id="" tvg-name="Soccer 25 -" tvg-logo="" group-title="Soccer",Soccer 25 -
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3463
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS F1" tvg-logo="" group-title="UK SPORTS",SKY SPORTS F1
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3939
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sports Football" tvg-logo="" group-title="UK SPORTS",Sky Sports Football
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3940
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sports Main Event" tvg-logo="" group-title="UK SPORTS",Sky Sports Main Event
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3941
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sports Racing" tvg-logo="" group-title="UK SPORTS",Sky Sports Racing
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3942
+#EXTINF:-1 tvg-id="" tvg-name="Sky 1" tvg-logo="" group-title="UK SPORTS",Sky 1
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3943
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports Xtra" tvg-logo="" group-title="UK SPORTS",beIN Sports Xtra
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3476
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS PREMIER LEAGUE HD" tvg-logo="" group-title="UK SPORTS",SKY SPORTS PREMIER LEAGUE HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3879
+#EXTINF:-1 tvg-id="" tvg-name="ESPN HD" tvg-logo="" group-title="UK SPORTS",ESPN HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3880
+#EXTINF:-1 tvg-id="" tvg-name="LFC TV HD" tvg-logo="" group-title="UK SPORTS",LFC TV HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3882
+#EXTINF:-1 tvg-id="" tvg-name="MANCHESTER UNITE TV HD" tvg-logo="" group-title="UK SPORTS",MANCHESTER UNITE TV HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3883
+#EXTINF:-1 tvg-id="" tvg-name="EIR SPORTS 2 HD" tvg-logo="" group-title="UK SPORTS",EIR SPORTS 2 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3885
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS CRICKET HD" tvg-logo="" group-title="UK SPORTS",SKY SPORTS CRICKET HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3886
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS MIX HD" tvg-logo="" group-title="UK SPORTS",SKY SPORTS MIX HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3887
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS GOLF HD" tvg-logo="" group-title="UK SPORTS",SKY SPORTS GOLF HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3888
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS NEWS HD" tvg-logo="" group-title="UK SPORTS",SKY SPORTS NEWS HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3889
+#EXTINF:-1 tvg-id="" tvg-name="PREMIER LEAGUE 1 HD" tvg-logo="" group-title="UK SPORTS",PREMIER LEAGUE 1 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3890
+#EXTINF:-1 tvg-id="" tvg-name="PREMIER LEAGUE 2 HD" tvg-logo="" group-title="UK SPORTS",PREMIER LEAGUE 2 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3891
+#EXTINF:-1 tvg-id="" tvg-name="PREMIER LEAGUE 3 HD" tvg-logo="" group-title="UK SPORTS",PREMIER LEAGUE 3 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3892
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 1 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 1 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3907
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 2 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 2 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3908
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 3 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 3 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3909
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 4 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 4 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3910
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 5 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 5 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3911
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 6 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 6 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3912
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 7 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 7 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3913
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 8 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 8 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3914
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 9 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 9 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3915
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 10 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 10 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3916
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 11 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 11 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3917
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS 12 HD" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS 12 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3918
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS BLITZ" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS BLITZ
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3919
+#EXTINF:-1 tvg-id="" tvg-name="SUPER SPORTS MAXIMO" tvg-logo="" group-title="UK SPORTS",SUPER SPORTS MAXIMO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3920
+#EXTINF:-1 tvg-id="" tvg-name="FREE SPORTS FHD" tvg-logo="" group-title="UK SPORTS",FREE SPORTS FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3923
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGTH PASS HD" tvg-logo="" group-title="UK SPORTS",UFC FIGTH PASS HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3924
+#EXTINF:-1 tvg-id="" tvg-name="WWE PPVV HD" tvg-logo="" group-title="UK SPORTS",WWE PPVV HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3925
+#EXTINF:-1 tvg-id="" tvg-name="BT SPORTS 1 HD" tvg-logo="" group-title="UK SPORTS",BT SPORTS 1 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3931
+#EXTINF:-1 tvg-id="" tvg-name="BT SPORTS 2 HD" tvg-logo="" group-title="UK SPORTS",BT SPORTS 2 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3932
+#EXTINF:-1 tvg-id="" tvg-name="BT SPORTS 3 HD" tvg-logo="" group-title="UK SPORTS",BT SPORTS 3 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3933
+#EXTINF:-1 tvg-id="" tvg-name="BOX NATION HD" tvg-logo="" group-title="UK SPORTS",BOX NATION HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3934
+#EXTINF:-1 tvg-id="" tvg-name="PREMIER SPORTS 2 HD" tvg-logo="" group-title="UK SPORTS",PREMIER SPORTS 2 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3935
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS ARENA HD" tvg-logo="" group-title="UK SPORTS",SKY SPORTS ARENA HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3936
+#EXTINF:-1 tvg-id="" tvg-name="BT SPORTS ESPN HD" tvg-logo="" group-title="UK SPORTS",BT SPORTS ESPN HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3937
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS ACTION HD" tvg-logo="" group-title="UK SPORTS",SKY SPORTS ACTION HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3938
+#EXTINF:-1 tvg-id="" tvg-name="BALLY Sports Arizona" tvg-logo="" group-title="USA SPORT", BALLY Sports Arizona
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/26
+#EXTINF:-1 tvg-id="" tvg-name="BALLY Sports North" tvg-logo="" group-title="USA SPORT", BALLY Sports North
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/29
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Ohio" tvg-logo="" group-title="USA SPORT", Bally Sports Ohio
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/30
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports San Diego" tvg-logo="" group-title="USA SPORT", Bally Sports San Diego
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/31
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports South" tvg-logo="" group-title="USA SPORT", Bally Sports South
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/32
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports SouthEast" tvg-logo="" group-title="USA SPORT", Bally Sports SouthEast
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/33
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Sun" tvg-logo="" group-title="USA SPORT", Bally Sports Sun
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/35
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports West" tvg-logo="" group-title="USA SPORT", Bally Sports West
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/36
+#EXTINF:-1 tvg-id="" tvg-name="A&E" tvg-logo="" group-title="CINE PREMIUM",A&E
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/38
+#EXTINF:-1 tvg-id="" tvg-name="Golf Channel" tvg-logo="" group-title="USA SPORT",Golf Channel
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/39
+#EXTINF:-1 tvg-id="" tvg-name="Golf Channel" tvg-logo="" group-title="USA SPORT", Golf Channel
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/40
+#EXTINF:-1 tvg-id="" tvg-name="A3S" tvg-logo="" group-title="CINE PREMIUM",A3S
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/41
+#EXTINF:-1 tvg-id="" tvg-name="ADN40" tvg-logo="" group-title="MEXICO",ADN40
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/42
+#EXTINF:-1 tvg-id="" tvg-name="Affizionados" tvg-logo="" group-title="DEPORTE LATINO",Affizionados
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/43
+#EXTINF:-1 tvg-id="" tvg-name="AMC" tvg-logo="" group-title="CINE PREMIUM",AMC
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/44
+#EXTINF:-1 tvg-id="" tvg-name="Animal Planet" tvg-logo="" group-title="CULTURA",Animal Planet
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/45
+#EXTINF:-1 tvg-id="" tvg-name="Antena 3" tvg-logo="" group-title="NOTICIAS",Antena 3
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/46
+#EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="" group-title="CINE PREMIUM",AXN
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/47
+#EXTINF:-1 tvg-id="" tvg-name="AXN White" tvg-logo="" group-title="CINE PREMIUM",AXN White
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/48
+#EXTINF:-1 tvg-id="" tvg-name="AyM Sports" tvg-logo="" group-title="DEPORTE LATINO",AyM Sports
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/49
+#EXTINF:-1 tvg-id="" tvg-name="AZ Cinema" tvg-logo="" group-title="MEXICO",AZ Cinema
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/50
+#EXTINF:-1 tvg-id="" tvg-name="AZ Corazon" tvg-logo="" group-title="MEXICO",AZ Corazon
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/51
+#EXTINF:-1 tvg-id="" tvg-name="AZ Mundo" tvg-logo="" group-title="MEXICO",AZ Mundo
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/52
+#EXTINF:-1 tvg-id="" tvg-name="Azteca 1" tvg-logo="" group-title="MEXICO",Azteca 1
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/53
+#EXTINF:-1 tvg-id="" tvg-name="Azteca 7" tvg-logo="" group-title="MEXICO",Azteca 7
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/54
+#EXTINF:-1 tvg-id="" tvg-name="Bandamax" tvg-logo="" group-title="MEXICO",Bandamax
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/55
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports" tvg-logo="" group-title="DEPORTE LATINO",beIN Sports
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/56
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports La Liga" tvg-logo="" group-title="DEPORTE LATINO",beIN Sports La Liga
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/57
+#EXTINF:-1 tvg-id="" tvg-name="Boomerang" tvg-logo="" group-title="INFANTIL",Cartoonito
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/58
+#EXTINF:-1 tvg-id="" tvg-name="Canal 11" tvg-logo="" group-title="MEXICO",Canal 11
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/59
+#EXTINF:-1 tvg-id="" tvg-name="Canal 5" tvg-logo="" group-title="MEXICO",Canal 5
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/60
+#EXTINF:-1 tvg-id="" tvg-name="Canal De Las Estrellas" tvg-logo="" group-title="MEXICO",Canal De Las Estrellas
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/61
+#EXTINF:-1 tvg-id="" tvg-name="Caracol" tvg-logo="" group-title="COLOMBIA", Caracol
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/62
+#EXTINF:-1 tvg-id="" tvg-name="Cartoon Network" tvg-logo="" group-title="INFANTIL",Cartoon Network
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/63
+#EXTINF:-1 tvg-id="" tvg-name="CineCanal" tvg-logo="" group-title="CINE PREMIUM",CineCanal
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/64
+#EXTINF:-1 tvg-id="" tvg-name="CineLatino" tvg-logo="" group-title="CINE PREMIUM",CineLatino
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/65
+#EXTINF:-1 tvg-id="" tvg-name="Cinemax" tvg-logo="" group-title="CINE PREMIUM",Cinemax
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/66
+#EXTINF:-1 tvg-id="" tvg-name="CNN en Espanol" tvg-logo="" group-title="NOTICIAS",CNN en Espanol
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/67
+#EXTINF:-1 tvg-id="" tvg-name="De Pelicula" tvg-logo="" group-title="MEXICO",De Pelicula
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/69
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Channel" tvg-logo="" group-title="CULTURA",Discovery Channel
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/70
+#EXTINF:-1 tvg-id="" tvg-name="HGTV" tvg-logo="" group-title="ENTRETENIMIENTO",HGTV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/71
+#EXTINF:-1 tvg-id="" tvg-name="Discovery en Espanol" tvg-logo="" group-title="CULTURA",Discovery en Español
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/72
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Familia" tvg-logo="" group-title="CULTURA",Discovery Familia
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/73
+#EXTINF:-1 tvg-id="" tvg-name="Discovery H&H" tvg-logo="" group-title="CULTURA",Discovery H&H
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/74
+#EXTINF:-1 tvg-id="" tvg-name="Discovery ID" tvg-logo="" group-title="CULTURA",Discovery ID
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/75
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Kids" tvg-logo="" group-title="INFANTIL",Discovery Kids
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/76
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Science" tvg-logo="" group-title="CULTURA",Discovery Science
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/77
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Theater" tvg-logo="" group-title="CULTURA",Discovery Theater
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/78
+#EXTINF:-1 tvg-id="" tvg-name="Discovery TLC" tvg-logo="" group-title="CULTURA",Discovery TLC
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/79
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Turbo" tvg-logo="" group-title="CULTURA",Discovery Turbo
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/80
+#EXTINF:-1 tvg-id="" tvg-name="Discovery World" tvg-logo="" group-title="CULTURA",Discovery World
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/81
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="" group-title="INFANTIL",Disney Channel
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/82
+#EXTINF:-1 tvg-id="" tvg-name="Disney Jr" tvg-logo="" group-title="INFANTIL",Disney Jr
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/83
+#EXTINF:-1 tvg-id="" tvg-name="Distrito Comedia" tvg-logo="" group-title="MEXICO",Distrito Comedia
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/85
+#EXTINF:-1 tvg-id="" tvg-name="E!" tvg-logo="" group-title="ENTRETENIMIENTO",E!
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/86
+#EXTINF:-1 tvg-id="" tvg-name="El Garage" tvg-logo="" group-title="MEXICO",El Garage
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/87
+#EXTINF:-1 tvg-id="" tvg-name="El Gourmet" tvg-logo="" group-title="ENTRETENIMIENTO",El Gourmet
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/88
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 2" tvg-logo="" group-title="DEPORTE LATINO",ESPN 2 MX
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/90
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 3" tvg-logo="" group-title="DEPORTE LATINO",ESPN 3 MX
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/91
+#EXTINF:-1 tvg-id="" tvg-name="ESPN Deportes" tvg-logo="" group-title="DEPORTE LATINO",ESPN Deportes
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/92
+#EXTINF:-1 tvg-id="" tvg-name="ESPN Plus" tvg-logo="" group-title="USA SPORT",ESPN Plus
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/93
+#EXTINF:-1 tvg-id="" tvg-name="Estrella TV" tvg-logo="" group-title="ENTRETENIMIENTO",Estrella TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/94
+#EXTINF:-1 tvg-id="" tvg-name="Food Network" tvg-logo="" group-title="ENTRETENIMIENTO",Food Network
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/95
+#EXTINF:-1 tvg-id="" tvg-name="Foro TV" tvg-logo="" group-title="ENTRETENIMIENTO",Foro TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/96
+#EXTINF:-1 tvg-id="" tvg-name="FOX" tvg-logo="" group-title="CINE PREMIUM",FOX
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/97
+#EXTINF:-1 tvg-id="" tvg-name="Universal Crime" tvg-logo="" group-title="CINE PREMIUM",Universal Crime
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/98
+#EXTINF:-1 tvg-id="" tvg-name="Un1versal Cinema" tvg-logo="" group-title="CINE PREMIUM",Un1versal Cinema
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/99
+#EXTINF:-1 tvg-id="" tvg-name="Universal Reality" tvg-logo="" group-title="CINE PREMIUM",Universal Reality
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/101
+#EXTINF:-1 tvg-id="" tvg-name="Universal Premier" tvg-logo="" group-title="CINE PREMIUM",Universal Premier
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/103
+#EXTINF:-1 tvg-id="" tvg-name="FOX Sports" tvg-logo="" group-title="DEPORTE LATINO",FOX Sports
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/105
+#EXTINF:-1 tvg-id="" tvg-name="FOX Sports 2" tvg-logo="" group-title="DEPORTE LATINO",FOX Sports 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/106
+#EXTINF:-1 tvg-id="" tvg-name="FOX Sports 3" tvg-logo="" group-title="DEPORTE LATINO",FOX Sports 3
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/107
+#EXTINF:-1 tvg-id="" tvg-name="FX" tvg-logo="" group-title="CINE PREMIUM",FX
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/111
+#EXTINF:-1 tvg-id="" tvg-name="FXM" tvg-logo="" group-title="CINE PREMIUM",FXM
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/112
+#EXTINF:-1 tvg-id="" tvg-name="Gala TV" tvg-logo="" group-title="ENTRETENIMIENTO",Gala TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/113
+#EXTINF:-1 tvg-id="" tvg-name="Glitz" tvg-logo="" group-title="ENTRETENIMIENTO",Glitz
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/114
+#EXTINF:-1 tvg-id="" tvg-name="Gol TV" tvg-logo="" group-title="DEPORTE LATINO",Gol TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/115
+#EXTINF:-1 tvg-id="" tvg-name="Golden Plus" tvg-logo="" group-title="CINE PREMIUM",Golden Plus
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/117
+#EXTINF:-1 tvg-id="" tvg-name="HBO" tvg-logo="" group-title="CINE PREMIUM",HBO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/118
+#EXTINF:-1 tvg-id="" tvg-name="HBO 2" tvg-logo="" group-title="CINE PREMIUM",HBO 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/119
+#EXTINF:-1 tvg-id="" tvg-name="HBO Family" tvg-logo="" group-title="CINE PREMIUM",HBO Family
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/120
+#EXTINF:-1 tvg-id="" tvg-name="HBO Plus" tvg-logo="" group-title="CINE PREMIUM",HBO Plus
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/121
+#EXTINF:-1 tvg-id="" tvg-name="History 2" tvg-logo="" group-title="CULTURA",History 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/122
+#EXTINF:-1 tvg-id="" tvg-name="History Channel" tvg-logo="" group-title="CULTURA",History Channel
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/123
+#EXTINF:-1 tvg-id="" tvg-name="Hola TV" tvg-logo="" group-title="ENTRETENIMIENTO",Hola TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/124
+#EXTINF:-1 tvg-id="" tvg-name="Imagen" tvg-logo="" group-title="ENTRETENIMIENTO",Imagen
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/125
+#EXTINF:-1 tvg-id="" tvg-name="Lifetime" tvg-logo="" group-title="ENTRETENIMIENTO",Lifetime
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/126
+#EXTINF:-1 tvg-id="" tvg-name="MasChic" tvg-logo="" group-title="ENTRETENIMIENTO",MasChic
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/127
+#EXTINF:-1 tvg-id="" tvg-name="HBO XTREME" tvg-logo="" group-title="CINE PREMIUM",HBO XTREME
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/128
+#EXTINF:-1 tvg-id="" tvg-name="HBO POP" tvg-logo="" group-title="CINE PREMIUM",HBO POP
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/129
+#EXTINF:-1 tvg-id="" tvg-name="Mexiquense" tvg-logo="" group-title="MEXICO",Mexiquense
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/130
+#EXTINF:-1 tvg-id="" tvg-name="Multimedios" tvg-logo="" group-title="MEXICO",Multimedios
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/131
+#EXTINF:-1 tvg-id="" tvg-name="Nat Geo Mundo" tvg-logo="" group-title="CULTURA",Nat Geo Mundo
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/133
+#EXTINF:-1 tvg-id="" tvg-name="Nat Geo Wild" tvg-logo="" group-title="CULTURA",Nat Geo Wild
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/134
+#EXTINF:-1 tvg-id="" tvg-name="National Geographic" tvg-logo="" group-title="CULTURA",National Geographic
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/135
+#EXTINF:-1 tvg-id="" tvg-name="Nick" tvg-logo="" group-title="INFANTIL",Nick
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/136
+#EXTINF:-1 tvg-id="" tvg-name="Nick Jr" tvg-logo="" group-title="INFANTIL",Nick Jr
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/137
+#EXTINF:-1 tvg-id="" tvg-name="Nicktoons" tvg-logo="" group-title="INFANTIL",Nicktoons
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/138
+#EXTINF:-1 tvg-id="" tvg-name="Pasiones" tvg-logo="" group-title="MEXICO",Pasiones
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/139
+#EXTINF:-1 tvg-id="" tvg-name="RCN" tvg-logo="" group-title="COLOMBIA",RCN
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/140
+#EXTINF:-1 tvg-id="" tvg-name="Ritmoson" tvg-logo="" group-title="MUSICA",Ritmoson
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/141
+#EXTINF:-1 tvg-id="" tvg-name="Showtime" tvg-logo="" group-title="CINE PREMIUM",Showtime
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/142
+#EXTINF:-1 tvg-id="" tvg-name="Sony" tvg-logo="" group-title="CINE PREMIUM",Sony
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/143
+#EXTINF:-1 tvg-id="" tvg-name="Space" tvg-logo="" group-title="CINE PREMIUM",Space
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/144
+#EXTINF:-1 tvg-id="" tvg-name="Starz" tvg-logo="" group-title="CINE PREMIUM",Starz
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/145
+#EXTINF:-1 tvg-id="" tvg-name="Starz Encore" tvg-logo="" group-title="CINE PREMIUM",Starz Encore
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/146
+#EXTINF:-1 tvg-id="" tvg-name="Studio Universal" tvg-logo="" group-title="CINE PREMIUM",Studio Universal
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/147
+#EXTINF:-1 tvg-id="" tvg-name="SyFy" tvg-logo="" group-title="CINE PREMIUM",SyFy
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/149
+#EXTINF:-1 tvg-id="" tvg-name="TBS" tvg-logo="" group-title="CINE PREMIUM",TBS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/150
+#EXTINF:-1 tvg-id="" tvg-name="TCM" tvg-logo="" group-title="CINE PREMIUM",TCM
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/151
+#EXTINF:-1 tvg-id="" tvg-name="Teleformula" tvg-logo="" group-title="MUSICA",Teleformula
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/152
+#EXTINF:-1 tvg-id="" tvg-name="Telehit" tvg-logo="" group-title="MUSICA",Telehit
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/153
+#EXTINF:-1 tvg-id="" tvg-name="Telemundo Int" tvg-logo="" group-title="TELEMUNDO",Telemundo Int
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/154
+#EXTINF:-1 tvg-id="" tvg-name="TLnovelas" tvg-logo="" group-title="MEXICO",TLnovelas
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/155
+#EXTINF:-1 tvg-id="" tvg-name="TNT" tvg-logo="" group-title="CINE PREMIUM",TNT
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/156
+#EXTINF:-1 tvg-id="" tvg-name="TNT Series" tvg-logo="" group-title="CINE PREMIUM",TNT Series
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/157
+#EXTINF:-1 tvg-id="" tvg-name="Tooncast" tvg-logo="" group-title="INFANTIL",Tooncast
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/158
+#EXTINF:-1 tvg-id="" tvg-name="TruTV" tvg-logo="" group-title="CINE PREMIUM",TruTV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/159
+#EXTINF:-1 tvg-id="" tvg-name="TUDN" tvg-logo="" group-title="DEPORTE LATINO",TUDN
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/160
+#EXTINF:-1 tvg-id="" tvg-name="TVC" tvg-logo="" group-title="DEPORTE LATINO",TVC
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/161
+#EXTINF:-1 tvg-id="" tvg-name="TVC Deportes" tvg-logo="" group-title="DEPORTE LATINO",TVC Deportes
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/162
+#EXTINF:-1 tvg-id="" tvg-name="TyC Sports" tvg-logo="" group-title="DEPORTE LATINO",TyC Sports
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/163
+#EXTINF:-1 tvg-id="" tvg-name="Unicable" tvg-logo="" group-title="ENTRETENIMIENTO",Unicable
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/173
+#EXTINF:-1 tvg-id="" tvg-name="UniMas" tvg-logo="" group-title="ENTRETENIMIENTO",UniMas
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/174
+#EXTINF:-1 tvg-id="" tvg-name="Universal Channel" tvg-logo="" group-title="CINE PREMIUM",Universal Channel
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/175
+#EXTINF:-1 tvg-id="" tvg-name="Warner" tvg-logo="" group-title="CINE PREMIUM",Warner
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/178
+#EXTINF:-1 tvg-id="" tvg-name="Win Sports" tvg-logo="" group-title="DEPORTE LATINO",Win Sports
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/179
+#EXTINF:-1 tvg-id="" tvg-name="PUERTO RICO | MEGA TV" tvg-logo="" group-title="PUERTO RICO",MEGA TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/180
+#EXTINF:-1 tvg-id="" tvg-name="PUERTO RICO | Punto 2" tvg-logo="" group-title="PUERTO RICO",Punto 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/181
+#EXTINF:-1 tvg-id="" tvg-name="PUERTO RICO | Univision" tvg-logo="" group-title="PUERTO RICO",Univision
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/182
+#EXTINF:-1 tvg-id="" tvg-name="PUERTO RICO | WAPA" tvg-logo="" group-title="PUERTO RICO",WAPA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/183
+#EXTINF:-1 tvg-id="" tvg-name="WAPA 2" tvg-logo="" group-title="PUERTO RICO",WAPA 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/184
+#EXTINF:-1 tvg-id="" tvg-name="WIPR" tvg-logo="" group-title="PUERTO RICO",WIPR
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/185
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports" tvg-logo="" group-title="USA SPORT",beIN Sports
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/212
+#EXTINF:-1 tvg-id="" tvg-name="ESPN" tvg-logo="" group-title="USA SPORT",ESPN
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/255
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 2" tvg-logo="" group-title="USA SPORT",ESPN 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/256
+#EXTINF:-1 tvg-id="" tvg-name="ESPN News" tvg-logo="" group-title="USA SPORT",ESPN News
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/257
+#EXTINF:-1 tvg-id="" tvg-name="ESPN U" tvg-logo="" group-title="USA SPORT",ESPN U
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/258
+#EXTINF:-1 tvg-id="" tvg-name="Fight Network" tvg-logo="" group-title="USA SPORT",Fight Network
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/259
+#EXTINF:-1 tvg-id="" tvg-name="MSNBC" tvg-logo="" group-title="USA SPORT",MSNBC
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/306
+#EXTINF:-1 tvg-id="" tvg-name="MTV" tvg-logo="" group-title="MUSICA",MTV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/307
+#EXTINF:-1 tvg-id="" tvg-name="MTV 2" tvg-logo="" group-title="MUSICA",MTV 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/308
+#EXTINF:-1 tvg-id="" tvg-name="NBC" tvg-logo="" group-title="USA SPORT",NBC
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/313
+#EXTINF:-1 tvg-id="" tvg-name="NBC 10 Philadelphia" tvg-logo="" group-title="USA SPORT",NBC 10 Philadelphia
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/314
+#EXTINF:-1 tvg-id="" tvg-name="NBC 2 Houston" tvg-logo="" group-title="USA SPORT",NBC 2 Houston
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/315
+#EXTINF:-1 tvg-id="" tvg-name="NBC 4 Los Angeles" tvg-logo="" group-title="USA SPORT",NBC 4 Los Angeles
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/317
+#EXTINF:-1 tvg-id="" tvg-name="NBC 4 New York" tvg-logo="" group-title="USA SPORT",NBC 4 New York
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/318
+#EXTINF:-1 tvg-id="" tvg-name="NBC 5 Chicago" tvg-logo="" group-title="USA SPORT",NBC 5 Chicago
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/319
+#EXTINF:-1 tvg-id="" tvg-name="NBC 5 Dallas" tvg-logo="" group-title="USA SPORT",NBC 5 Dallas
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/320
+#EXTINF:-1 tvg-id="" tvg-name="NBC 6 Miami" tvg-logo="" group-title="USA SPORT",NBC 6 Miami
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/321
+#EXTINF:-1 tvg-id="" tvg-name="NBC 9 Denver" tvg-logo="" group-title="USA SPORT",NBC 9 Denver
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/322
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Bay Area" tvg-logo="" group-title="USA SPORT",NBC Sports Bay Area
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/323
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Boston" tvg-logo="" group-title="USA SPORT",NBC Sports Boston
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/324
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports California" tvg-logo="" group-title="USA SPORT",NBC Sports California
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/325
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Chicago" tvg-logo="" group-title="USA SPORT",NBC Sports Chicago
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/326
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Philadelphia" tvg-logo="" group-title="USA SPORT",NBC Sports Philadelphia
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/328
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Washington" tvg-logo="" group-title="USA SPORT",NBC Sports Washington
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/329
+#EXTINF:-1 tvg-id="" tvg-name="NBC Universo" tvg-logo="" group-title="USA SPORT",NBC Universo
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/330
+#EXTINF:-1 tvg-id="" tvg-name="Telemundo" tvg-logo="" group-title="TELEMUNDO",Telemundo
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/364
+#EXTINF:-1 tvg-id="" tvg-name="Telemundo Chicago" tvg-logo="" group-title="TELEMUNDO",Telemundo Chicago
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/365
+#EXTINF:-1 tvg-id="" tvg-name="Telemundo Los Angeles" tvg-logo="" group-title="TELEMUNDO",Telemundo Los Angeles
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/366
+#EXTINF:-1 tvg-id="" tvg-name="Telemundo Miami" tvg-logo="" group-title="TELEMUNDO",Telemundo Miami
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/367
+#EXTINF:-1 tvg-id="" tvg-name="Telemundo Texas" tvg-logo="" group-title="TELEMUNDO",Telemundo Texas
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/368
+#EXTINF:-1 tvg-id="" tvg-name="Tennis Channel" tvg-logo="" group-title="USA SPORT",Tennis Channel
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/369
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Pass" tvg-logo="" group-title="USA SPORT",UFC Fight Pass
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/379
+#EXTINF:-1 tvg-id="" tvg-name="WWE Network" tvg-logo="" group-title="USA SPORT",WWE Network
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/388
+#EXTINF:-1 tvg-id="" tvg-name="America TV " tvg-logo="" group-title="PERU",America TV 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/459
+#EXTINF:-1 tvg-id="" tvg-name="ATV" tvg-logo="" group-title="PERU",ATV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/460
+#EXTINF:-1 tvg-id="" tvg-name="LATINA" tvg-logo="" group-title="PERU",LATINA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/461
+#EXTINF:-1 tvg-id="" tvg-name="PANAMERICANA" tvg-logo="" group-title="PERU",PANAMERICANA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/462
+#EXTINF:-1 tvg-id="" tvg-name="GOL PERU" tvg-logo="" group-title="PERU",GOL PERU
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/463
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR DEPORTES" tvg-logo="" group-title="PERU",MOVISTAR DEPORTES
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/464
+#EXTINF:-1 tvg-id="" tvg-name="PERU MAGICO" tvg-logo="" group-title="PERU",PERU MAGICO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/466
+#EXTINF:-1 tvg-id="" tvg-name="TV PERU" tvg-logo="" group-title="PERU",TV PERU
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/468
+#EXTINF:-1 tvg-id="" tvg-name="TV PERU NOTICIAS" tvg-logo="" group-title="PERU",TV PERU NOTICIAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/469
+#EXTINF:-1 tvg-id="" tvg-name="CANAL IPE" tvg-logo="" group-title="PERU",CANAL IPE
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/470
+#EXTINF:-1 tvg-id="" tvg-name="ATV PLUS" tvg-logo="" group-title="PERU",ATV PLUS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/472
+#EXTINF:-1 tvg-id="" tvg-name="WILLAX TV" tvg-logo="" group-title="PERU",WILLAX TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/473
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Prime Ticket" tvg-logo="" group-title="USA SPORT", Bally Sports Prime Ticket
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/493
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 1" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 1
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/497
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 2" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/498
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 3" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 3
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/499
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 4" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 4
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/500
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 5" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 5
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/501
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 6" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 6
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/502
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 7" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 7
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/503
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 8" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 8
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/504
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 9" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 9
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/505
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 10" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 10
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/506
+#EXTINF:-1 tvg-id="" tvg-name="CANAL UNO" tvg-logo="" group-title="ECUADOR",CANAL UNO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/507
+#EXTINF:-1 tvg-id="" tvg-name="ECUADOR TV" tvg-logo="" group-title="ECUADOR",ECUADOR TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/508
+#EXTINF:-1 tvg-id="" tvg-name="ECUADOR TV INTERNACIONAL" tvg-logo="" group-title="ECUADOR",ECUADOR TV INTERNACIONAL
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/509
+#EXTINF:-1 tvg-id="" tvg-name="ECUAVISA" tvg-logo="" group-title="ECUADOR",ECUAVISA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/510
+#EXTINF:-1 tvg-id="" tvg-name="ECUAVISA Quito" tvg-logo="" group-title="ECUADOR",ECUAVISA Quito
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/511
+#EXTINF:-1 tvg-id="" tvg-name="GAMAVISION" tvg-logo="" group-title="ECUADOR",GAMAVISION
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/512
+#EXTINF:-1 tvg-id="" tvg-name="RST" tvg-logo="" group-title="ECUADOR",RST
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/513
+#EXTINF:-1 tvg-id="" tvg-name="TC TELEVISION" tvg-logo="" group-title="ECUADOR",TC TELEVISION
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/514
+#EXTINF:-1 tvg-id="" tvg-name="TELEAMAZONAS" tvg-logo="" group-title="ECUADOR",TELEAMAZONAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/515
+#EXTINF:-1 tvg-id="" tvg-name="OROMAR TV" tvg-logo="" group-title="ECUADOR",OROMAR TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/516
+#EXTINF:-1 tvg-id="" tvg-name="NTN24" tvg-logo="" group-title="COLOMBIA",NTN24
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/517
+#EXTINF:-1 tvg-id="" tvg-name="CITY TV" tvg-logo="" group-title="COLOMBIA",CITY TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/524
+#EXTINF:-1 tvg-id="" tvg-name="TELEANTIOQUIA" tvg-logo="" group-title="COLOMBIA",TELEANTIOQUIA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/528
+#EXTINF:-1 tvg-id="" tvg-name="TELECARIBE" tvg-logo="" group-title="COLOMBIA",TELECARIBE
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/530
+#EXTINF:-1 tvg-id="" tvg-name="13h" tvg-logo="" group-title="CHILE",13h
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/535
+#EXTINF:-1 tvg-id="" tvg-name="24HORAS" tvg-logo="" group-title="CHILE",24HORAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/536
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 13" tvg-logo="" group-title="CHILE",CANAL 13
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/537
+#EXTINF:-1 tvg-id="" tvg-name="LA RED" tvg-logo="" group-title="CHILE",LA RED
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/546
+#EXTINF:-1 tvg-id="" tvg-name="MEGA" tvg-logo="" group-title="CHILE",MEGA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/547
+#EXTINF:-1 tvg-id="" tvg-name="FOX SPORTS PREMIUN" tvg-logo="" group-title="DEPORTE LATINO",FOX SPORTS PREMIUM
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/552
+#EXTINF:-1 tvg-id="" tvg-name="MILENIO TV" tvg-logo="" group-title="MEXICO",MILENIO TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/556
+#EXTINF:-1 tvg-id="" tvg-name="NICK 2" tvg-logo="" group-title="INFANTIL",NICK 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/585
+#EXTINF:-1 tvg-id="" tvg-name="UNIVISION LOS ANGELES" tvg-logo="" group-title="UNIVISION",UNIVISION LOS ANGELES
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/692
+#EXTINF:-1 tvg-id="" tvg-name="UNIVISION TLENOVELAS" tvg-logo="" group-title="UNIVISION",UNIVISION TLENOVELAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/694
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO SANANTONIO" tvg-logo="" group-title="TELEMUNDO",TELEMUNDO SANANTONIO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/706
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO NEWYORK" tvg-logo="" group-title="TELEMUNDO",TELEMUNDO NEWYORK
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/707
+#EXTINF:-1 tvg-id="" tvg-name="UNIMAS MIAMI" tvg-logo="" group-title="UNIMAS",UNIMAS MIAMI
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/741
+#EXTINF:-1 tvg-id="" tvg-name="UNIMAS NEW YORK" tvg-logo="" group-title="UNIMAS",UNIMAS NEW YORK
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/742
+#EXTINF:-1 tvg-id="" tvg-name="UNIMAS LOS ANGELES" tvg-logo="" group-title="UNIMAS",UNIMAS LOS ANGELES
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/745
+#EXTINF:-1 tvg-id="" tvg-name="MTV" tvg-logo="" group-title="MUSICA",MTV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/752
+#EXTINF:-1 tvg-id="" tvg-name="MTV LIVE " tvg-logo="" group-title="MUSICA",MTV LIVE 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/753
+#EXTINF:-1 tvg-id="" tvg-name="UNIVERSAL COMEDY" tvg-logo="" group-title="CINE PREMIUM",UNIVERSAL COMEDY
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/754
+#EXTINF:-1 tvg-id="" tvg-name="HBO SIGNATURE" tvg-logo="" group-title="CINE PREMIUM",HBO SIGNATURE
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/755
+#EXTINF:-1 tvg-id="" tvg-name="GOLDEN PREMIER" tvg-logo="" group-title="CINE PREMIUM",GOLDEN PREMIER
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/756
+#EXTINF:-1 tvg-id="" tvg-name="GOLDEN" tvg-logo="" group-title="CINE PREMIUM",GOLDEN
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/757
+#EXTINF:-1 tvg-id="" tvg-name="NESN SPORT" tvg-logo="" group-title="USA SPORT",NESN SPORT
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/759
+#EXTINF:-1 tvg-id="" tvg-name="OLYMPIC CHANNEL " tvg-logo="" group-title="USA SPORT",OLYMPIC CHANNEL 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/770
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 14 TV SUR" tvg-logo="" group-title="COSTA RICA",CANAL 14 TV SUR
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/788
+#EXTINF:-1 tvg-id="" tvg-name="TIGO SPORTS" tvg-logo="" group-title="DEPORTE LATINO",TIGO SPORTS COSTA RICA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/790
+#EXTINF:-1 tvg-id="" tvg-name="REPRETEL 11 " tvg-logo="" group-title="COSTA RICA",REPRETEL 11 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/791
+#EXTINF:-1 tvg-id="" tvg-name="REPRETEL 6 " tvg-logo="" group-title="COSTA RICA",REPRETEL 6 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/792
+#EXTINF:-1 tvg-id="" tvg-name="TELETICA 7" tvg-logo="" group-title="COSTA RICA",TELETICA 7
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/793
+#EXTINF:-1 tvg-id="" tvg-name="SER TV" tvg-logo="" group-title="PANAMA",SER TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/837
+#EXTINF:-1 tvg-id="" tvg-name="TELEMETRO" tvg-logo="" group-title="PANAMA",TELEMETRO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/838
+#EXTINF:-1 tvg-id="" tvg-name="Film And Arts" tvg-logo="" group-title="ENTRETENIMIENTO",Film And Arts
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/896
+#EXTINF:-1 tvg-id="" tvg-name="BABY FIRTS" tvg-logo="" group-title="INFANTIL",BABY FIRTS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/899
+#EXTINF:-1 tvg-id="" tvg-name="ESPERANZA TV" tvg-logo="" group-title="RELIGIOSO",ESPERANZA TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/936
+#EXTINF:-1 tvg-id="" tvg-name="ALIENTO VISION" tvg-logo="" group-title="RELIGIOSO",ALIENTO VISION
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/941
+#EXTINF:-1 tvg-id="" tvg-name="LA VOZ DE MARIA" tvg-logo="" group-title="RELIGIOSO",LA VOZ DE MARIA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/945
+#EXTINF:-1 tvg-id="" tvg-name="JRES TV" tvg-logo="" group-title="RELIGIOSO",JRES TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/946
+#EXTINF:-1 tvg-id="" tvg-name="CANAL DIOCESANO" tvg-logo="" group-title="RELIGIOSO",CANAL DIOCESANO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/949
+#EXTINF:-1 tvg-id="" tvg-name="RCG SALTILLO" tvg-logo="" group-title="MEXICO",RCG SALTILLO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/956
+#EXTINF:-1 tvg-id="" tvg-name="CGTN ESPANOL" tvg-logo="" group-title="NOTICIAS",CGTN ESPANOL
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/961
+#EXTINF:-1 tvg-id="" tvg-name="EXTREMA X" tvg-logo="" group-title="MEXICO",EXTREMA X
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/962
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 10 CANCUN" tvg-logo="" group-title="MEXICO",CANAL 10 CANCUN
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/972
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 4 SALTILLO" tvg-logo="" group-title="MEXICO",CANAL 4 SALTILLO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/974
+#EXTINF:-1 tvg-id="" tvg-name="PRESUMIENDO MEXICO" tvg-logo="" group-title="MEXICO",PRESUMIENDO MEXICO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/977
+#EXTINF:-1 tvg-id="" tvg-name="BHTV" tvg-logo="" group-title="PERU",BHTV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/979
+#EXTINF:-1 tvg-id="" tvg-name="ANTARES TV" tvg-logo="" group-title="PERU",ANTARES TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/980
+#EXTINF:-1 tvg-id="" tvg-name="CULTURA 24" tvg-logo="" group-title="PERU",CULTURA 24
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/982
+#EXTINF:-1 tvg-id="" tvg-name="UNIVISION DALLAS" tvg-logo="" group-title="UNIVISION", UNIVISION DALLAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/983
+#EXTINF:-1 tvg-id="" tvg-name="WINSPORTS PLUS" tvg-logo="" group-title="DEPORTE LATINO",WINSPORTS PLUS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/984
+#EXTINF:-1 tvg-id="" tvg-name="FUTV" tvg-logo="" group-title="DEPORTE LATINO",FUTV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1041
+#EXTINF:-1 tvg-id="" tvg-name="TOROS TV" tvg-logo="" group-title="DEPORTE LATINO",TOROS TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1044
+#EXTINF:-1 tvg-id="" tvg-name="DIREC TV PLUS" tvg-logo="" group-title="DEPORTE LATINO",DIRECTV PLUS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1046
+#EXTINF:-1 tvg-id="" tvg-name="DIRECTV SPORTS 2" tvg-logo="" group-title="DEPORTE LATINO",DIRECTV SPORTS 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1048
+#EXTINF:-1 tvg-id="" tvg-name="HBO MUNDI" tvg-logo="" group-title="CINE PREMIUM",HBO MUNDI
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1112
+#EXTINF:-1 tvg-id="" tvg-name="CANAL N" tvg-logo="" group-title="PERU",CANAL N
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1117
+#EXTINF:-1 tvg-id="" tvg-name="UNIVISION SAN FRANCISCO" tvg-logo="" group-title="UNIVISION",UNIVISION SAN FRANCISCO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1123
+#EXTINF:-1 tvg-id="" tvg-name="UNIVISION" tvg-logo="" group-title="UNIVISION",UNIVISION
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1124
+#EXTINF:-1 tvg-id="" tvg-name="TELEFE" tvg-logo="" group-title="ARGENTINA",TELEFE
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1133
+#EXTINF:-1 tvg-id="" tvg-name="TUDN EXTRA 11" tvg-logo="" group-title="DEPORTE LATINO",TUDN EXTRA 11
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1137
+#EXTINF:-1 tvg-id="" tvg-name="Paramount" tvg-logo="" group-title="CINE PREMIUM",Paramount
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1141
+#EXTINF:-1 tvg-id="" tvg-name="FILMS ART" tvg-logo="" group-title="CINE PREMIUM",FILMS ART
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1152
+#EXTINF:-1 tvg-id="" tvg-name="RPP" tvg-logo="" group-title="PERU",RPP Noticias
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1196
+#EXTINF:-1 tvg-id="" tvg-name="CBS SPORTS NETWORK" tvg-logo="" group-title="USA SPORT",CBS SPORTS NETWORK
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1279
+#EXTINF:-1 tvg-id="" tvg-name="TELESUR" tvg-logo="" group-title="VENEZUELA",TELESUR
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1301
+#EXTINF:-1 tvg-id="" tvg-name="PROMAR" tvg-logo="" group-title="VENEZUELA",PROMAR
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1304
+#EXTINF:-1 tvg-id="" tvg-name="VTV PLUS" tvg-logo="" group-title="DEPORTE LATINO",VTV PLUS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1313
+#EXTINF:-1 tvg-id="" tvg-name="UNIMAS DALLAS" tvg-logo="" group-title="UNIMAS",UNIMAS DALLAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1315
+#EXTINF:-1 tvg-id="" tvg-name="Telemundo Conecticut" tvg-logo="" group-title="TELEMUNDO",Telemundo Conecticut
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1319
+#EXTINF:-1 tvg-id="" tvg-name="CUBAVISION" tvg-logo="" group-title="CUBA",CUBAVISION
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1321
+#EXTINF:-1 tvg-id="" tvg-name="CUBAVISION INTERNACIONAL" tvg-logo="" group-title="CUBA",CUBAVISION INTERNACIONAL
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1322
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION ALBUQUERQUE(W)" tvg-logo="" group-title="GALAVISION",GALAVISION ALBUQUERQUE(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1362
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION ATLANTA(W)" tvg-logo="" group-title="GALAVISION",GALAVISION ATLANTA(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1363
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION AUSTIN(W)" tvg-logo="" group-title="GALAVISION",GALAVISION AUSTIN(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1364
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION DALLAS(W)" tvg-logo="" group-title="GALAVISION",GALAVISION DALLAS(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1366
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION EAST(W)" tvg-logo="" group-title="GALAVISION",GALAVISION EAST(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1367
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION FRESNO(W)" tvg-logo="" group-title="GALAVISION",GALAVISION FRESNO(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1368
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION LA(W)" tvg-logo="" group-title="GALAVISION",GALAVISION LA(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1370
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION MIAMI(W)" tvg-logo="" group-title="GALAVISION",GALAVISION MIAMI(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1372
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION PHOENIX(W)" tvg-logo="" group-title="GALAVISION",GALAVISION PHOENIX(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1375
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION SACRAMENTO(W)" tvg-logo="" group-title="GALAVISION",GALAVISION SACRAMENTO(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1377
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION SALTLAKE(W)" tvg-logo="" group-title="GALAVISION",GALAVISION SALTLAKE(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1378
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION SAN ANTONIO(W)" tvg-logo="" group-title="GALAVISION",GALAVISION SAN ANTONIO(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1379
+#EXTINF:-1 tvg-id="" tvg-name="GALAVISION WEST(W)" tvg-logo="" group-title="GALAVISION",GALAVISION WEST(W)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1381
+#EXTINF:-1 tvg-id="" tvg-name="Red Bull TV" tvg-logo="" group-title="USA SPORT",Red Bull TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1382
+#EXTINF:-1 tvg-id="" tvg-name="ROBOTECH" tvg-logo="" group-title="24/7",ROBOTECH
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2922
+#EXTINF:-1 tvg-id="" tvg-name="Dragon Ball z" tvg-logo="" group-title="24/7",Dragon Ball z
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2926
+#EXTINF:-1 tvg-id="" tvg-name="EL PRINCIPE DEL RAP" tvg-logo="" group-title="24/7",EL PRINCIPE DEL RAP
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2929
+#EXTINF:-1 tvg-id="" tvg-name="The Big Bang Theory" tvg-logo="" group-title="24/7",The Big Bang Theory
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2931
+#EXTINF:-1 tvg-id="" tvg-name="Adrenalina Sport Network" tvg-logo="" group-title="DEPORTE LATINO",Adrenalina Sport Network
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2937
+#EXTINF:-1 tvg-id="" tvg-name="BABY TV" tvg-logo="" group-title="INFANTIL",BABY TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2938
+#EXTINF:-1 tvg-id="" tvg-name="NARUTO" tvg-logo="" group-title="24/7",NARUTO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2939
+#EXTINF:-1 tvg-id="" tvg-name="CABALLEROS DEL SODIACO" tvg-logo="" group-title="24/7",CABALLEROS DEL SODIACO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2941
+#EXTINF:-1 tvg-id="" tvg-name="MASINGERZ" tvg-logo="" group-title="24/7",MASINGERZ
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2942
+#EXTINF:-1 tvg-id="" tvg-name="SUPER CAMPEONES" tvg-logo="" group-title="24/7",SUPER CAMPEONES
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2943
+#EXTINF:-1 tvg-id="" tvg-name="MALCOLM" tvg-logo="" group-title="24/7",MALCOLM
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2947
+#EXTINF:-1 tvg-id="" tvg-natle="PINGUINO TV" tvg-logo="" group-title="CHILE",PINGUINO TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2949
+#EXTINF:-1 tvg-id="" tvg-name="SONY COMPETENCIAS" tvg-logo="" group-title="DEPORTE LATINO",SONY COMPETENCIAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2952
+#EXTINF:-1 tvg-id="" tvg-name="TOP CINE" tvg-logo="" group-title="CINE PREMIUM",TOP CINE 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2979
+#EXTINF:-1 tvg-id="" tvg-name="CINE SUREÑO" tvg-logo="" group-title="CINE PREMIUM",CINE SUREÑO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2980
+#EXTINF:-1 tvg-id="" tvg-name="JUNTOS" tvg-logo="" group-title="CINE PREMIUM",JUNTOS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2981
+#EXTINF:-1 tvg-id="" tvg-name="HORRORIFY" tvg-logo="" group-title="CINE PREMIUM",HORRORIFY
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2982
+#EXTINF:-1 tvg-id="" tvg-name="24H NOTICIAS" tvg-logo="" group-title="ARGENTINA",24H NOTICIAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2992
+#EXTINF:-1 tvg-id="" tvg-name="5RTV SANTA FE" tvg-logo="" group-title="ARGENTINA",5RTV SANTA FE
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2993
+#EXTINF:-1 tvg-id="" tvg-name="5TV CORRIENTES" tvg-logo="" group-title="ARGENTINA",5TV CORRIENTES
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2994
+#EXTINF:-1 tvg-id="" tvg-name="9 MULTIVISION" tvg-logo="" group-title="ARGENTINA",9 MULTIVISION
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2995
+#EXTINF:-1 tvg-id="" tvg-name="ARGENTINIZIMA SATELITAL" tvg-logo="" group-title="ARGENTINA",ARGENTINIZIMA SATELITAL
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2997
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 10 GENERAL ROCA" tvg-logo="" group-title="ARGENTINA",CANAL 10 GENERAL ROCA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/2999
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 26" tvg-logo="" group-title="ARGENTINA",CANAL 26
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3000
+#EXTINF:-1 tvg-id="" tvg-name="CHACRA TV" tvg-logo="" group-title="ARGENTINA",CHACRA TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3001
+#EXTINF:-1 tvg-id="" tvg-name="CIUDAD TV CHACO" tvg-logo="" group-title="ARGENTINA",CIUDAD TV CHACO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3002
+#EXTINF:-1 tvg-id="" tvg-name="FENIX TV" tvg-logo="" group-title="ARGENTINA",FENIX TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3004
+#EXTINF:-1 tvg-id="" tvg-name="TLX" tvg-logo="" group-title="ARGENTINA",TLX
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3008
+#EXTINF:-1 tvg-id="" tvg-name="RED ADVENIR" tvg-logo="" group-title="BOLIVIA",RED ADVENIR
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3011
+#EXTINF:-1 tvg-id="" tvg-name="RTP" tvg-logo="" group-title="BOLIVIA",RTP
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3012
+#EXTINF:-1 tvg-id="" tvg-name="TVU" tvg-logo="" group-title="BOLIVIA",TVU 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3013
+#EXTINF:-1 tvg-id="" tvg-name="XTO TV" tvg-logo="" group-title="BOLIVIA",XTO TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3015
+#EXTINF:-1 tvg-id="" tvg-name="Hosanna Vision" tvg-logo="" group-title="PANAMA",Hosanna Vision
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3016
+#EXTINF:-1 tvg-id="" tvg-name="OYE CANAL 7" tvg-logo="" group-title="PANAMA",OYE CANAL 7
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3017
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 1" tvg-logo="" group-title="DEPORTE LATINO",ESPN 1 ARG
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3034
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 2 " tvg-logo="" group-title="DEPORTE LATINO",ESPN 2 ARG
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3035
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 3" tvg-logo="" group-title="DEPORTE LATINO",ESPN 3 ARG
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3036
+#EXTINF:-1 tvg-id="" tvg-name="Fox sports 1" tvg-logo="" group-title="DEPORTE LATINO",Fox sports 1 ARG
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3038
+#EXTINF:-1 tvg-id="" tvg-name="Fox Sports 2 " tvg-logo="" group-title="DEPORTE LATINO",Fox Sports 2 ARG
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3039
+#EXTINF:-1 tvg-id="" tvg-name="Fox Sports 3" tvg-logo="" group-title="DEPORTE LATINO",Fox Sports 3 ARG
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3040
+#EXTINF:-1 tvg-id="" tvg-name="NBC5N" tvg-logo="" group-title="USA SPORT",NBC5N
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3042
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 6" tvg-logo="" group-title="EL SALVADOR",CANAL 6
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3064
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 4" tvg-logo="" group-title="EL SALVADOR",CANAL 4
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3065
+#EXTINF:-1 tvg-id="" tvg-name="TIGO SPORTS 1" tvg-logo="" group-title="EL SALVADOR",TIGO SPORTS 1
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3069
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY SCENCIE" tvg-logo="" group-title="CULTURA",DISCOVERY SCENCIE
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3136
+#EXTINF:-1 tvg-id="" tvg-name="BOING" tvg-logo="" group-title="ESPAÑA",BOING
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3220
+#EXTINF:-1 tvg-id="" tvg-name="PAKA PAKA" tvg-logo="" group-title="ARGENTINA",PAKA PAKA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3221
+#EXTINF:-1 tvg-id="" tvg-name="TUDN USA" tvg-logo="" group-title="DEPORTE LATINO",TUDN USA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3225
+#EXTINF:-1 tvg-id="" tvg-name="TUDN" tvg-logo="" group-title="DEPORTE LATINO",TUDN
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3226
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO PR" tvg-logo="" group-title="PUERTO RICO",TELEMUNDO PR
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3280
+#EXTINF:-1 tvg-id="" tvg-name="DIRECTV SPORT 1" tvg-logo="" group-title="DEPORTE LATINO",DIRECTV SPORT 1
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3281
+#EXTINF:-1 tvg-id="" tvg-name="IVC" tvg-logo="" group-title="VENEZUELA",IVC
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3284
+#EXTINF:-1 tvg-id="" tvg-name="CANAL I" tvg-logo="" group-title="VENEZUELA",CANAL I
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3286
+#EXTINF:-1 tvg-id="" tvg-name="TELEVEN" tvg-logo="" group-title="VENEZUELA",TELEVEN
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3287
+#EXTINF:-1 tvg-id="" tvg-name="VENEVISION" tvg-logo="" group-title="VENEZUELA",VENEVISION 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3288
+#EXTINF:-1 tvg-id="" tvg-name="VENEVISION PLUS" tvg-logo="" group-title="VENEZUELA",VENEVISION PLUS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3289
+#EXTINF:-1 tvg-id="" tvg-name="GLOBOVISION" tvg-logo="" group-title="VENEZUELA",GLOBOVISION
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3290
+#EXTINF:-1 tvg-id="" tvg-name="MERIDIANO" tvg-logo="" group-title="VENEZUELA",MERIDIANO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3291
+#EXTINF:-1 tvg-id="" tvg-name="BARCA TV" tvg-logo="" group-title="DEPORTE LATINO",LA LIGA-BARCA TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3292
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 6" tvg-logo="" group-title="HONDURAS",CANAL 6
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3295
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 11" tvg-logo="" group-title="HONDURAS",CANAL 11
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3296
+#EXTINF:-1 tvg-id="" tvg-name="TSI" tvg-logo="" group-title="HONDURAS",TSI
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3298
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO DALLAS" tvg-logo="" group-title="TELEMUNDO",TELEMUNDO DALLAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3299
+#EXTINF:-1 tvg-id="" tvg-name="GUATEVISION" tvg-logo="" group-title="GUATEMALA",GUATEVISION
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3301
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 7" tvg-logo="" group-title="GUATEMALA",CANAL 7
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3302
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 3" tvg-logo="" group-title="GUATEMALA",CANAL 3
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3303
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 11" tvg-logo="" group-title="GUATEMALA",CANAL 11
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3305
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO ORLANDO FLORIDA" tvg-logo="" group-title="TELEMUNDO",TELEMUNDO ORLANDO FLORIDA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3307
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO DENVER" tvg-logo="" group-title="TELEMUNDO",TELEMUNDO DENVER
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3308
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO HOUSTON" tvg-logo="" group-title="TELEMUNDO",TELEMUNDO HOUSTON
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3309
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO PHOENIX" tvg-logo="" group-title="TELEMUNDO",TELEMUNDO PHOENIX 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3310
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO SAN FRANCISCO" tvg-logo="" group-title="TELEMUNDO",TELEMUNDO SAN FRANCISCO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3311
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO WASHINGTON" tvg-logo="" group-title="TELEMUNDO",TELEMUNDO WASHINGTON
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3312
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 6" tvg-logo="" group-title="NICARAGUA",CANAL 6
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3314
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 8" tvg-logo="" group-title="NICARAGUA",CANAL 8
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3315
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 13" tvg-logo="" group-title="NICARAGUA",CANAL 13
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3318
+#EXTINF:-1 tvg-id="" tvg-name="M. LA LIGA" tvg-logo="" group-title="ESPAÑA",M. LA LIGA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3321
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 1" tvg-logo="" group-title="ESPAÑA",DAZN 1
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3322
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 2" tvg-logo="" group-title="ESPAÑA",DAZN 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3323
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 3" tvg-logo="" group-title="ESPAÑA",DAZN 3
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3324
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 4" tvg-logo="" group-title="ESPAÑA",DAZN 4
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3325
+#EXTINF:-1 tvg-id="" tvg-name="DAZN FORMULA 1" tvg-logo="" group-title="ESPAÑA",DAZN FORMULA 1
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3326
+#EXTINF:-1 tvg-id="" tvg-name="Zol106 (720p)" tvg-logo="" group-title="RD",Zol106 (720p)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3356
+#EXTINF:-1 tvg-id="" tvg-name="Vallevision 720" tvg-logo="" group-title="RD",Vallevision 720
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3357
+#EXTINF:-1 tvg-id="" tvg-name="Teleunion (480p)" tvg-logo="" group-title="RD",Teleunion (480p)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3361
+#EXTINF:-1 tvg-id="" tvg-name="Telenord 12 (720p)" tvg-logo="" group-title="RD",Telenord 12 (720p)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3363
+#EXTINF:-1 tvg-id="" tvg-name="Telemilenio (720p)" tvg-logo="" group-title="RD",Telemilenio (720p)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3364
+#EXTINF:-1 tvg-id="" tvg-name="SiTV" tvg-logo="" group-title="RD",SiTV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3370
+#EXTINF:-1 tvg-id="" tvg-name="RNN (720p)" tvg-logo="" group-title="RD",RNN (720p)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3373
+#EXTINF:-1 tvg-id="" tvg-name="Ready TV" tvg-logo="" group-title="RD",Ready TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3374
+#EXTINF:-1 tvg-id="" tvg-name="PH (720p)" tvg-logo="" group-title="RD",PH (720p)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3375
+#EXTINF:-1 tvg-id="" tvg-name="Microvision 10 (720p)" tvg-logo="" group-title="RD",Microvision 10 (720p)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3378
+#EXTINF:-1 tvg-id="" tvg-name="Microvision" tvg-logo="" group-title="RD",Microvision
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3379
+#EXTINF:-1 tvg-id="" tvg-name="LVM 480" tvg-logo="" group-title="RD",LVM 480
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3380
+#EXTINF:-1 tvg-id="" tvg-name="HM (720p)" tvg-logo="" group-title="RD",HM (720p)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3381
+#EXTINF:-1 tvg-id="" tvg-name="DAN TV (720p)" tvg-logo="" group-title="RD",DAN TV (720p)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3383
+#EXTINF:-1 tvg-id="" tvg-name="EL CANAL DEL FUTBOL" tvg-logo="" group-title="DEPORTE LATINO",EL CANAL DEL FUTBOL EC
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3390
+#EXTINF:-1 tvg-id="" tvg-name="TNT SPORTS" tvg-logo="" group-title="CHILE",TNT SPORTS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3391
+#EXTINF:-1 tvg-id="" tvg-name="M. LA LIGA TV BAR" tvg-logo="" group-title="ESPAÑA",M. LA LIGA TV BAR
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3393
+#EXTINF:-1 tvg-id="" tvg-name="INFANTIL ULTRA FAMILIA" tvg-logo="" group-title="INFANTIL",ULTRA FAMILIA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3402
+#EXTINF:-1 tvg-id="" tvg-name="INFANTIL ULTRA KIDS" tvg-logo="" group-title="INFANTIL",ULTRA KIDS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3403
+#EXTINF:-1 tvg-id="" tvg-name="INFANTIL CANAL PANDA" tvg-logo="" group-title="INFANTIL",CANAL PANDA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3404
+#EXTINF:-1 tvg-id="" tvg-name="TV GALICIA INFANTIL" tvg-logo="" group-title="INFANTIL",TV GALICIA INFANTIL
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3406
+#EXTINF:-1 tvg-id="" tvg-name="KIDS | PEQUERADIO" tvg-logo="" group-title="INFANTIL",PEQUERADIO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3464
+#EXTINF:-1 tvg-id="" tvg-name="UNIVISION CHICAGO" tvg-logo="" group-title="UNIVISION",UNIVISION CHICAGO
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3471
+#EXTINF:-1 tvg-id="" tvg-name="STAR CHANEL" tvg-logo="" group-title="CINE PREMIUM",STAR CHANEL
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3475
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport 1" tvg-logo="" group-title="ESPAÑA",Eurosport 1
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3480
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport 2" tvg-logo="" group-title="ESPAÑA",Eurosport 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3481
+#EXTINF:-1 tvg-id="" tvg-name="A+" tvg-logo="" group-title="CINE PREMIUM",A+
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3482
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 3" tvg-logo="" group-title="BEIN SPORTS",beIN Sports 3
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3495
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 6" tvg-logo="" group-title="BEIN SPORTS",beIN Sports 6
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3498
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 9" tvg-logo="" group-title="BEIN SPORTS",beIN Sports 9
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3501
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 10" tvg-logo="" group-title="BEIN SPORTS",beIN Sports 10
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3502
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 12" tvg-logo="" group-title="BEIN SPORTS",beIN Sports 12
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3504
+#EXTINF:-1 tvg-id="" tvg-name="SporTV HD BRA" tvg-logo="" group-title="DEPORTE LATINO",SporTV HD BRA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3512
+#EXTINF:-1 tvg-id="" tvg-name="SporTV 2 HD BRA" tvg-logo="" group-title="DEPORTE LATINO",SporTV 2 HD BRA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3513
+#EXTINF:-1 tvg-id="" tvg-name="Band Sports BRA" tvg-logo="" group-title="DEPORTE LATINO",Band Sports BRA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3515
+#EXTINF:-1 tvg-id="" tvg-name="Bein Sports XTRA Ñ" tvg-logo="" group-title="DEPORTE LATINO",Bein Sports XTRA Ñ
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3516
+#EXTINF:-1 tvg-id="" tvg-name="Claro Sports FHD " tvg-logo="" group-title="DEPORTE LATINO",Claro Sports FHD 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3517
+#EXTINF:-1 tvg-id="" tvg-name="ESPN Extra HD " tvg-logo="" group-title="DEPORTE LATINO",ESPN Extra HD 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3518
+#EXTINF:-1 tvg-id="" tvg-name="Premiere 3  BRA" tvg-logo="" group-title="DEPORTE LATINO",Premiere 3  BRA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3520
+#EXTINF:-1 tvg-id="" tvg-name="Premiere 4 BRA" tvg-logo="" group-title="DEPORTE LATINO",Premiere 4 BRA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3521
+#EXTINF:-1 tvg-id="" tvg-name="Premiere 5 HD BRA" tvg-logo="" group-title="DEPORTE LATINO",Premiere 5 HD BRA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3522
+#EXTINF:-1 tvg-id="" tvg-name="South Park" tvg-logo="" group-title="24/7",South Park
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3533
+#EXTINF:-1 tvg-id="" tvg-name="Timón y Pumba" tvg-logo="" group-title="24/7",Timón y Pumba
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3535
+#EXTINF:-1 tvg-id="" tvg-name="Un Show Mas" tvg-logo="" group-title="24/7",Un Show Mas
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3536
+#EXTINF:-1 tvg-id="" tvg-name="Winnie The Pooh" tvg-logo="" group-title="24/7",Winnie The Pooh
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3537
+#EXTINF:-1 tvg-id="" tvg-name="Rick y Morty" tvg-logo="" group-title="24/7",Rick y Morty
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3539
+#EXTINF:-1 tvg-id="" tvg-name="El Chapulín Colorado " tvg-logo="" group-title="24/7",El Chapulín Colorado 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3542
+#EXTINF:-1 tvg-id="" tvg-name="ROSA DE GUADALUPE" tvg-logo="" group-title="24/7",ROSA DE GUADALUPE
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3544
+#EXTINF:-1 tvg-id="" tvg-name="Lilo & Stitch" tvg-logo="" group-title="24/7",Lilo & Stitch
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3545
+#EXTINF:-1 tvg-id="" tvg-name="Dinosaurios" tvg-logo="" group-title="24/7",Dinosaurios
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3547
+#EXTINF:-1 tvg-id="" tvg-name="Doraemon" tvg-logo="" group-title="24/7",Doraemon
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3548
+#EXTINF:-1 tvg-id="" tvg-name="Looney Tunes" tvg-logo="" group-title="24/7",Looney Tunes
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3550
+#EXTINF:-1 tvg-id="" tvg-name="SONY NOVELAS" tvg-logo="" group-title="CINE PREMIUM",SONY NOVELAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3564
+#EXTINF:-1 tvg-id="" tvg-name="SONY COMEDIAS" tvg-logo="" group-title="CINE PREMIUM",SONY COMEDIAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3565
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR ACCION" tvg-logo="" group-title="ESPAÑA",MOVISTAR ACCION
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3576
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR DRAMA" tvg-logo="" group-title="ESPAÑA",MOVISTAR DRAMA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3580
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR ESTRENOS" tvg-logo="" group-title="ESPAÑA",MOVISTAR ESTRENOS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3581
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR SERIEMANIA" tvg-logo="" group-title="ESPAÑA",MOVISTAR SERIEMANIA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3582
+#EXTINF:-1 tvg-id="" tvg-name="ULTRA FAMILIA" tvg-logo="" group-title="CINE PREMIUM",ULTRA FAMILIA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3585
+#EXTINF:-1 tvg-id="" tvg-name="ULTRA KIDZ" tvg-logo="" group-title="CINE PREMIUM",ULTRA KIDZ
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3586
+#EXTINF:-1 tvg-id="" tvg-name="FUBO SPORTS NETWORK" tvg-logo="" group-title="DEPORTE LATINO",FUBO SPORTS NETWORK
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3589
+#EXTINF:-1 tvg-id="" tvg-name="Retro Plus TV" tvg-logo="https://i2.paste.pics/d35132c511d1ef461b3e4af7db9e0b5f.png" group-title="MUSICA",Retro Plus TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3619
+#EXTINF:-1 tvg-id="" tvg-name="Recuerdos Retro Radio TV" tvg-logo="https://lh3.googleusercontent.com/-u9hoJJgi3Qg/YCCON9BSD1I/AAAAAAAA_xk/IaTcH9DfgAgCjdrjd_MM10F7TGPoUnpEACK8BGAsYHg/s0/2021-02-07.png" group-title="MUSICA", Recuerdos Retro Radio TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3620
+#EXTINF:-1 tvg-id="" tvg-name="Retro Plus TV Señal 2" tvg-logo="https://i2.paste.pics/d35132c511d1ef461b3e4af7db9e0b5f.png" group-title="MUSICA",Retro Plus TV Señal 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3621
+#EXTINF:-1 tvg-id="" tvg-name="Ruidos TV" tvg-logo="https://i2.paste.pics/004835d0c1a19dd14fa643dd18897d4d.png" group-title="MUSICA",Ruidos TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3622
+#EXTINF:-1 tvg-id="" tvg-name="Urban TV" tvg-logo="https://lh3.googleusercontent.com/-Xx4DcggZ0tw/X48XMFPv4jI/AAAAAAAA6lY/eTAQj1-UnWUbuTMAHTCiwz9SCJoAlGkTACK8BGAsYHg/s0/2020-10-20.png" group-title="MUSICA", Urban TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3623
+#EXTINF:-1 tvg-id="" tvg-name="RCKTV" tvg-logo="https://i2.paste.pics/b4e09c1315da8b38ccb2e308519cbda1.png" group-title="MUSICA",RCKTV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3624
+#EXTINF:-1 tvg-id="" tvg-name="Mundo de la Musica TV" tvg-logo="https://lh3.googleusercontent.com/-dGnGcoZ4XMI/YGiuDJ-l9SI/AAAAAAABBKo/29BjyFATaBUc5W1wMu7u18r7fY1SHwLhwCK8BGAsYHg/s512/2021-04-03.png" group-title="MUSICA", Mundo de la Musica TV * | CL
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3626
+#EXTINF:-1 tvg-id="" tvg-name="Latinos Radio" tvg-logo="https://i2.paste.pics/f5a6133c6b0fcec076105dfd2508549c.png" group-title="MUSICA",Latinos Radio
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3627
+#EXTINF:-1 tvg-id="" tvg-name="Euro Indie Music" tvg-logo="https://i2.paste.pics/539f780c9e624b125cf20e6d66ec47c8.png" group-title="MUSICA",Euro Indie Music
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3628
+#EXTINF:-1 tvg-id="" tvg-name="Zapping Music" tvg-logo="https://i2.paste.pics/869156d90e27d6c6e09dc5a8f0017838.png" group-title="MUSICA",Zapping Music
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3629
+#EXTINF:-1 tvg-id="" tvg-name="Portal FoxMix" tvg-logo="https://lh3.googleusercontent.com/-k9n3tedhqBs/XbC_-FblJSI/AAAAAAAArm4/pMPtuBhhdtoL_yFWs5dt23dHFTHHCv8hgCK8BGAsYHg/s0/2019-10-23.png" group-title="MUSICA", Portal FoxMix
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3631
+#EXTINF:-1 tvg-id="" tvg-name="Retro Music Television" tvg-logo="https://lh3.googleusercontent.com/-z4SQcFR0bIs/Xs_MlInCKMI/AAAAAAAA1QM/T2RR2owl_CYpymBiQ8lOi1ykYZVAwI6NACK8BGAsYHg/s0/2020-05-28.png" group-title="MUSICA", Retro Music Television
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3632
+#EXTINF:-1 tvg-id="" tvg-name="Alegria TV" tvg-logo="https://lh3.googleusercontent.com/-IDCwMaJRdnM/Xb11MVTbE-I/AAAAAAAAr4s/PbNF6ie1AIothtCRKeVvdVC6S5hO6a3xACK8BGAsYHg/s0/2019-11-02.png" group-title="MUSICA", Alegria TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3633
+#EXTINF:-1 tvg-id="" tvg-name="Canal 38" tvg-logo="https://lh3.googleusercontent.com/-JsoqJma_UaI/Xz5177aFy8I/AAAAAAAA4r8/2mN9M0HRshQfHf1Y1bH_ul9q22z36M41gCK8BGAsYHg/s0/2020-08-20.png" group-title="MUSICA", Canal 38
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3635
+#EXTINF:-1 tvg-id="" tvg-name="Corazon Llanero" tvg-logo="https://lh3.googleusercontent.com/-XR46wyY1FZc/XjomdF00q2I/AAAAAAAAvlY/RR7N6BVs2fQVrkRxUvldT5NN7KN5QGDDACK8BGAsYHg/s0/2020-02-04.png" group-title="MUSICA",Corazon Llanero
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3638
+#EXTINF:-1 tvg-id="" tvg-name="Maxima FM" tvg-logo="https://lh3.googleusercontent.com/-RF13xAQ97o0/XxzMzRqfnBI/AAAAAAAA3Zc/xet9CCbU7H8WEPRQGCXEPpiBxM5RUK6EwCK8BGAsYHg/s0/2020-07-25.png" group-title="MUSICA",Maxima FM
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3640
+#EXTINF:-1 tvg-id="" tvg-name="Music Top" tvg-logo="https://lh3.googleusercontent.com/-jyK2QfeF7tk/YBShx6dT-eI/AAAAAAAA_k4/gq6qGMH-1UAurScNL4TayXfEA47gA1ljgCK8BGAsYHg/s0/2021-01-29.png" group-title="MUSICA",Music Top
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3641
+#EXTINF:-1 tvg-id="" tvg-name="TV vconline.clL" tvg-logo="https://lh3.googleusercontent.com/-F0CYLyk3J_M/XxzNduxMoVI/AAAAAAAA3Zk/3S772u4F4jER7F0bULY-hlG7Nn9bbGa7gCK8BGAsYHg/s0/2020-07-25.png" group-title="MUSICA",TV vconline.cl
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3645
+#EXTINF:-1 tvg-id="" tvg-name="TV Exitos" tvg-logo="https://lh3.googleusercontent.com/-BET4REPGZKQ/X96Yzr-NKCI/AAAAAAAA8Wo/jNg4hNxYQP0gmIeRnv8mBt4_GfNyGkGnQCK8BGAsYHg/s0/2020-12-19.png" group-title="MUSICA",TV Exitos
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3647
+#EXTINF:-1 tvg-id="" tvg-name="Video Tour Channel" tvg-logo="https://lh3.googleusercontent.com/-QUz4UviUPiE/X3YnewzIm7I/AAAAAAAA6Ho/xpUvyAvSX6Qj0Lvl8qhuZnDdz9VPZWy4QCK8BGAsYHg/s0/2020-10-01.png" group-title="MUSICA",Video Tour Channel
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3648
+#EXTINF:-1 tvg-id="" tvg-name="Sexy Kpop TV" tvg-logo="https://lh3.googleusercontent.com/-_mVYIdXLYWQ/YGuFFxxUHFI/AAAAAAABBOo/1u_EVaReRtY31sRUcng-usb7bVQ9krgKwCK8BGAsYHg/s512/2021-04-05.jpg" group-title="MUSICA",Sexy Kpop
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3657
+#EXTINF:-1 tvg-id="" tvg-name="Hits 360" tvg-logo="https://lh3.googleusercontent.com/-5-1IsAfHulw/YLY20QswyOI/AAAAAAABCnU/3HTzC_ryaZc_tkdFb_MZGFH05anhfxPGgCJEEGAsYHg/s512/2021-06-01.png" group-title="MUSICA",Hits 360
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3661
+#EXTINF:-1 tvg-id="" tvg-name="Latin Zone TV" tvg-logo="https://i2.paste.pics/80e0212c6d6715e2ebdda69e5f2a6c61.png" group-title="MUSICA",Latin Zone TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3664
+#EXTINF:-1 tvg-id="" tvg-name="Nubeh TV" tvg-logo="https://i2.paste.pics/82dcfd31aad429ffee4c8edc9afa7624.png" group-title="MUSICA",Nubeh TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3666
+#EXTINF:-1 tvg-id="" tvg-name="Oxigeno Network" tvg-logo="https://i2.paste.pics/ef1ca23d4134cf47e55c3092fae7e513.png" group-title="MUSICA",Oxigeno Network
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3667
+#EXTINF:-1 tvg-id="" tvg-name="Panavision" tvg-logo="https://i2.paste.pics/4bb07c3c21fb5317a68d763802eba0e1.png" group-title="MUSICA",Panavision
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3668
+#EXTINF:-1 tvg-id="" tvg-name="Cloud FM" tvg-logo="https://i2.paste.pics/bfdf6e6db7e66a7f59008cc6e85079b6.png" group-title="MUSICA",Cloud FM
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3677
+#EXTINF:-1 tvg-id="" tvg-name="Evavisión Pachanga" tvg-logo="https://i2.paste.pics/1fac7deeb4ca257162cde40abd006d9d.png" group-title="MUSICA",Evavisión Pachanga
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3680
+#EXTINF:-1 tvg-id="" tvg-name="Buenisima Radio TV" tvg-logo="https://i2.paste.pics/aa99b1f0883fe3d009f973f0a0e2848f.png" group-title="MUSICA",Buenisima Radio TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3681
+#EXTINF:-1 tvg-id="" tvg-name="Vintage Music" tvg-logo="https://i2.paste.pics/508ad957b4f4585f59b0d4c265bbac61.png" group-title="MUSICA",Vintage Music
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3682
+#EXTINF:-1 tvg-id="" tvg-name="Soy Plancha TV" tvg-logo="https://i2.paste.pics/ade26f32ba4868798ef1593a34e57ef7.png" group-title="MUSICA",Soy Plancha TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3683
+#EXTINF:-1 tvg-id="" tvg-name="Cadena Elite" tvg-logo="https://i2.paste.pics/9beaf1949244b5eb5e5ed3af28304f52.png" group-title="MUSICA",Cadena Elite
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3685
+#EXTINF:-1 tvg-id="" tvg-name="Fabulosa FM" tvg-logo="https://i2.paste.pics/10532b52fe8caff8b9ac5d56c616bddb.png" group-title="MUSICA",Fabulosa FM
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3686
+#EXTINF:-1 tvg-id="" tvg-name="Molahits TV" tvg-logo="https://i2.paste.pics/46fdcecaa7fc4ca2f236df0d8a4df6a6.png" group-title="MUSICA",Molahits TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3687
+#EXTINF:-1 tvg-id="" tvg-name="Top TV" tvg-logo="https://lh3.googleusercontent.com/-UXc734ztZfU/X0KOOvmuZAI/AAAAAAAA440/6ngQMIIe7Ukh8ugZlXJwxSnlbiiVz-bZQCK8BGAsYHg/s0/2020-08-23.png" group-title="MUSICA", Top TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3689
+#EXTINF:-1 tvg-id="" tvg-name="Solobailalo TV" tvg-logo="https://i2.paste.pics/d96b857f73a9ce281cdef4e11766eddd.png" group-title="MUSICA",Solobailalo TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3694
+#EXTINF:-1 tvg-id="" tvg-name="VClassicTV" tvg-logo="https://i2.paste.pics/99cc893c37784a17aac9a95ac3c7e5c8.png" group-title="MUSICA",VClassicTV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3696
+#EXTINF:-1 tvg-id="" tvg-name="Freestyledjs" tvg-logo="https://i2.paste.pics/d7192184924772147bbeed4fffde3680.png" group-title="MUSICA",Freestyledjs
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3697
+#EXTINF:-1 tvg-id="" tvg-name="CINE| A ESTRENAR FHD" tvg-logo="" group-title="CINE PREMIUM",A ESTRENAR FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3699
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 1 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 1 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3700
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 2 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 2 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3701
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 3 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 3 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3702
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 4 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 4 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3703
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 5 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 5 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3704
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 6 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 6 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3705
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 7 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 7 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3706
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 8 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 8 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3707
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 9 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 9 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3708
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 10 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 10 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3709
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 12 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 12 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3711
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 13 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 13 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3712
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 14 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 14 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3713
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 15 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 15 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3714
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 16 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 16 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3715
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 17 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 17 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3716
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 18 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 18 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3717
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 19 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 19 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3718
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 20 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 20 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3719
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 21 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 21 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3720
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 22 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 22 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3721
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 23 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 23 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3722
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 24 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 24 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3723
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 25 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 25 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3724
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX LATINO 26 HD" tvg-logo="" group-title="PELICULAS NETFLIX",NETFLIX LATINO 26 HD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3725
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX  ANIMATION" tvg-logo="" group-title="CINEMA 24/7",CINEBOX  ANIMATION
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3741
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX BLOCKBUSTER" tvg-logo="" group-title="CINEMA 24/7",CINEBOX BLOCKBUSTER
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3742
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX CLASSICS" tvg-logo="" group-title="CINEMA 24/7",CINEBOX CLASSICS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3743
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX CULT" tvg-logo="" group-title="CINEMA 24/7",CINEBOX CULT
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3745
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX FAMILY" tvg-logo="" group-title="CINEMA 24/7",CINEBOX FAMILY
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3746
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX GREATS" tvg-logo="" group-title="CINEMA 24/7",CINEBOX GREATS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3747
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX GREATS 2" tvg-logo="" group-title="CINEMA 24/7",CINEBOX GREATS 2
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3748
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX HISTORICAL" tvg-logo="" group-title="CINEMA 24/7",CINEBOX HISTORICAL
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3749
+#EXTINF:-1 tvg-id="" tvg-name="CINEBOX MUSICAL" tvg-logo="" group-title="CINEMA 24/7",CINEBOX MUSICAL
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3751
+#EXTINF:-1 tvg-id="" tvg-name="MULTIMEDIOS MONTERREY" tvg-logo="" group-title="MEXICO",MULTIMEDIOS MONTERREY
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3765
+#EXTINF:-1 tvg-id="" tvg-name="MULTIMEDIOS TORREON" tvg-logo="" group-title="MEXICO",MULTIMEDIOS TORREON
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3766
+#EXTINF:-1 tvg-id="" tvg-name="RCG" tvg-logo="" group-title="MEXICO",RCG
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3767
+#EXTINF:-1 tvg-id="" tvg-name="RCG 2 " tvg-logo="" group-title="MEXICO",RCG 2 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3768
+#EXTINF:-1 tvg-id="" tvg-name="RCG 3" tvg-logo="" group-title="MEXICO",RCG 3
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3769
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 6 NRT" tvg-logo="" group-title="MEXICO",CANAL 6 NRT
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3770
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 24 NRT" tvg-logo="" group-title="MEXICO",CANAL 24 NRT
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3771
+#EXTINF:-1 tvg-id="" tvg-name="TELEMAX" tvg-logo="" group-title="ARGENTINA",TELEMAX
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3772
+#EXTINF:-1 tvg-id="" tvg-name="TV MAS " tvg-logo="" group-title="MEXICO",TV MAS 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3773
+#EXTINF:-1 tvg-id="" tvg-name="QHUBO TV" tvg-logo="" group-title="HONDURAS",QHUBO TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3774
+#EXTINF:-1 tvg-id="" tvg-name="Telpin Canal 2 " tvg-logo="" group-title="ARGENTINA",Telpin Canal 2 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3775
+#EXTINF:-1 tvg-id="" tvg-name="ULTRA PUEBLA" tvg-logo="" group-title="MEXICO",ULTRA PUEBLA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3776
+#EXTINF:-1 tvg-id="" tvg-name="WOW TV" tvg-logo="" group-title="EL SALVADOR",WOW TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3777
+#EXTINF:-1 tvg-id="" tvg-name="TELEMAX" tvg-logo="" group-title="MEXICO",TELEMAX
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3778
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 10 NOTICIAS" tvg-logo="" group-title="MEXICO",CANAL 10 NOTICIAS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3780
+#EXTINF:-1 tvg-id="" tvg-name="JALISCO TV" tvg-logo="" group-title="MEXICO",JALISCO TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3781
+#EXTINF:-1 tvg-id="" tvg-natle="TEVEX" tvg-logo="" group-title="CHILE",TEVEX
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3782
+#EXTINF:-1 tvg-id="" tvg-natle="RETROPLUS 3" tvg-logo="" group-title="CHILE",RETROPLUS 3
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3783
+#EXTINF:-1 tvg-id="" tvg-name="RETRO PLUS 2 " tvg-logo="" group-title="CHILE",RETRO PLUS 2 
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3784
+#EXTINF:-1 tvg-id="" tvg-natle="RETRO PLUS" tvg-logo="" group-title="CHILE",RETRO PLUS
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3785
+#EXTINF:-1 tvg-id="" tvg-name="ULTRA FIESTA" tvg-logo="" group-title="CINE PREMIUM",ULTRA FIESTA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3809
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO ATLANTA" tvg-logo="" group-title="TELEMUNDO",TELEMUNDO ATLANTA
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3812
+#EXTINF:-1 tvg-id="" tvg-name="STAR + HD (Solo Eventos)" tvg-logo="" group-title="DEPORTE LATINO",STAR + HD (Solo Eventos)
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3566
+#EXTINF:-1 tvg-id="" tvg-name="NHL Network" tvg-logo="" group-title="USA SPORT",NHL Network
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/334
+#EXTINF:-1 tvg-id="" tvg-name="NFL Network" tvg-logo="" group-title="USA SPORT",NFL Network
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/332
+#EXTINF:-1 tvg-id="" tvg-name="NFL Red Zone" tvg-logo="" group-title="USA SPORT",NFL Red Zone
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/333
+#EXTINF:-1 tvg-id="" tvg-name="NBA TV" tvg-logo="" group-title="USA SPORT",NBA TV
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/312
+#EXTINF:-1 tvg-id="" tvg-name="MLB Network" tvg-logo="" group-title="USA SPORT",MLB Network
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/303
+#EXTINF:-1 tvg-id="" tvg-name="FOX Soccer Plus" tvg-logo="" group-title="USA SPORT",FOX Soccer Plus
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/276
+#EXTINF:-1 tvg-id="" tvg-name="ANIMAL PLANET" tvg-logo="" group-title="CULTURA",ANIMAL PLANET FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3131
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY FAMILIA" tvg-logo="" group-title="CULTURA",DISCOVERY FAMILIA FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3134
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY THEATHER" tvg-logo="" group-title="CULTURA",DISCOVERY THEATHER FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3137
+#EXTINF:-1 tvg-id="" tvg-name="FOX COMEDY (STAR COMEDY)" tvg-logo="" group-title="CINE PREMIUM",FOX COMEDY (STAR COMEDY) FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3139
+#EXTINF:-1 tvg-id="" tvg-name="HBO 2" tvg-logo="" group-title="CINE PREMIUM",HBO 2 FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3146
+#EXTINF:-1 tvg-id="" tvg-name="HBO FAMILY" tvg-logo="" group-title="CINE PREMIUM",HBO FAMILY FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3147
+#EXTINF:-1 tvg-id="" tvg-name="HBO MUNDI " tvg-logo="" group-title="CINE PREMIUM",HBO MUNDI FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3148
+#EXTINF:-1 tvg-id="" tvg-name="HBO POP" tvg-logo="" group-title="CINE PREMIUM",HBO POP FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3149
+#EXTINF:-1 tvg-id="" tvg-name="HBO SIGNATURE" tvg-logo="" group-title="CINE PREMIUM",HBO SIGNATURE FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3150
+#EXTINF:-1 tvg-id="" tvg-name="HBO PLUS" tvg-logo="" group-title="CINE PREMIUM",HBO PLUS FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3151
+#EXTINF:-1 tvg-id="" tvg-name="HBO XTREME" tvg-logo="" group-title="CINE PREMIUM",HBO XTREME FHD
+http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/3152
