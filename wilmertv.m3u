@@ -530,7 +530,8 @@ http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/174
 http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/175
 #EXTINF:-1 tvg-id="" tvg-name="Warner" tvg-logo="" group-title="CINE PREMIUM",Warner
 http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/178
-#EXTINF:-1 tvg-id="" tvg-name="Win Sports" tvg-logo="" group-title="DEPORTE LATINO",Win Sports
+#EXTINF:-1 tvg-id="" tvg-name="
+Sports" tvg-logo="" group-title="DEPORTE LATINO",Win Sports
 http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/179
 #EXTINF:-1 tvg-id="" tvg-name="PUERTO RICO | MEGA TV" tvg-logo="" group-title="PUERTO RICO",MEGA TV
 http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/180
@@ -779,7 +780,7 @@ http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/982
 #EXTINF:-1 tvg-id="" tvg-name="UNIVISION DALLAS" tvg-logo="" group-title="UNIVISION", UNIVISION DALLAS
 http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/983
 #EXTINF:-1 tvg-id="" tvg-name="WINSPORTS PLUS" tvg-logo="" group-title="DEPORTE LATINO",WINSPORTS PLUS
-https://3.ultimate2019.com/stream/hls/881
+http://streamgo.vip:8008/200/200/128041
 #EXTINF:-1 tvg-id="" tvg-name="FUTV" tvg-logo="" group-title="DEPORTE LATINO",FUTV
 http://51.222.25.50:25461/hsbdfjhkasvbdf/bulltv/1041
 #EXTINF:-1 tvg-id="" tvg-name="TOROS TV" tvg-logo="" group-title="DEPORTE LATINO",TOROS TV
