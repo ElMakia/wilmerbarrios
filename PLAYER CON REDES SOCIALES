@@ -1,0 +1,708 @@
+<html><head><base href="https://stream.zeno.fm/4yt8jxuz9fhtv">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ WILMER EN VIVO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #3498db, #8e44ad);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+            overflow: hidden;
+        }
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .player {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            width: 500px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+            display: flex;
+        }
+        .album-art {
+            width: 150px;
+            height: 150px;
+            margin-right: 30px;
+            margin-left: 5%;
+        }
+        @keyframes pulse-art {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .album-art img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: pulse-art 3s infinite ease-in-out;
+        }
+        .player-content {
+            flex: 1;
+        }
+        .wave-animation {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        .wave {
+            width: 3px;
+            height: 100%;
+            background: white;
+            margin: 0 2px;
+            border-radius: 3px;
+            animation: wave 1s infinite ease-in-out;
+        }
+        @keyframes wave {
+            0%, 100% { height: 20px; }
+            50% { height: 60px; }
+        }
+        .station-info {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .station-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .now-playing {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .play-pause {
+            background: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: #3498db;
+            transition: transform 0.2s;
+        }
+        .play-pause:hover {
+            transform: scale(1.1);
+        }
+        .status-button {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            padding: 8px 12px;
+            border-radius: 20px;
+            color: white;
+            font-size: 12px;
+            margin-left: 10px;
+            cursor: default;
+            transition: background-color 0.3s;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .status-button.online {
+            background: rgba(46, 204, 113, 0.6);
+            animation: pulse 1.5s infinite ease-in-out;
+        }
+        .volume-control {
+            position: relative;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .volume-slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 5px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.3);
+            outline: none;
+        }
+        .volume-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: white;
+            cursor: pointer;
+        }
+        .volume-percentage {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .social-buttons {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 2;
+        }
+        .social-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .social-button:hover {
+            transform: translateY(-5px) rotate(5deg);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+        .social-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 12px;
+            background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+            z-index: -1;
+        }
+        .facebook:hover { color: #3b5998; }
+        .youtube:hover { color: #c4302b; }
+        .tiktok:hover { color: #000000; }
+        .whatsapp:hover { color: #25d366; }
+        .instagram:hover { color: #e1306c; }
+        .twitter:hover { color: #1da1f2; }
+        .download-buttons {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+            z-index: 2;
+        }
+        .download-button {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            padding: 10px 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        .download-button:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+        }
+        .download-button i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .mobile-download-buttons {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .mobile-download-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            padding: 10px 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            width: 200px;
+        }
+        .mobile-download-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .mobile-download-button i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .dropdown {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+        .dropbtn {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 12px 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 25px;
+            backdrop-filter: blur(5px);
+            transition: all 0.3s ease;
+        }
+        .dropbtn:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(52, 152, 219, 0.9);
+            min-width: 300px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            color: white;
+            top: 60px;
+            left: 0;
+            transition: all 0.3s ease;
+        }
+        .dropdown-content h3 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 24px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 10px;
+        }
+        .schedule-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        .schedule-item:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        .schedule-item:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .schedule-item img {
+            border-radius: 50%;
+            margin-right: 16px;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border: 2px solid white;
+        }
+        .schedule-item div {
+            flex-grow: 1;
+        }
+        .schedule-item strong {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .schedule-item p {
+            margin: 0;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        .schedule-separator {
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 10px 0;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .floating-messages {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            z-index: 1000;
+        }
+        .floating-message {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            border-radius: 20px;
+            padding: 10px 20px;
+            color: white;
+            font-size: 18px;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+        }
+        @media screen and (max-width: 768px) {
+            body {
+                overflow: auto;
+            }
+            #particles-js,
+            .social-buttons,
+            .download-buttons,
+            .dropdown,
+            .floating-messages {
+                display: none !important;
+            }
+            .player {
+                width: 90%;
+                max-width: 400px;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+            }
+            .album-art {
+                width: 120px;
+                height: 120px;
+                margin-right: 0;
+                margin-left: 0;
+                margin-bottom: 20px;
+            }
+            .player-content {
+                width: 100%;
+            }
+            .mobile-download-buttons {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="floating-messages" id="floatingMessages"></div>
+    <div class="dropdown">
+        <button class="dropbtn"><i class="fas fa-bars"></i> Menú</button>
+        <div class="dropdown-content" style="background-color: rgba(52, 152, 219, 0.09);">
+            <h3>Horarios y Locutores</h3>
+            <div class="schedule-item">
+                <img src=" https://i.postimg.cc/0jZXnGPh/sssssss.png" alt="Locutor 1" width="60" height="60">
+                <div>
+                    <strong>SENSACION FM</strong>
+                    <p>Lunes a Viernes, 6:00 - 10:00</p>
+                </div>
+            </div>
+            <div class="schedule-separator"></div>
+            <div class="schedule-item">
+                <img src=" https://i.ibb.co/GdRNP3x/photo-2022-06-30-18-53-20.jpg" alt="Locutor 2" width="60" height="60">
+                <div>
+                    <strong>Super Exitos Vallenatos</strong>
+                    <p>Lunes a Viernes, 05:00 am - 08:00 am</p>
+                </div>
+            </div>
+            <div class="schedule-separator"></div>
+            <div class="schedule-item">
+                <img src=" https://i.ibb.co/9p8hpS3/Radio-Streaming.png" alt="Locutor 3" width="60" height="60">
+                <div>
+                    <strong>A Todo Ritmo</strong>
+                    <p>Lunes a Viernes, 08:00 am - 12:00 pm</p>
+                </div>
+            </div>
+            <div class="schedule-separator"></div>
+            <div class="schedule-item">
+                <img src=" https://i.ibb.co/fkxK0v3/ESTRELLA.png" alt="Locutor 4" width="60" height="60">
+                <div>
+                    <strong>Champeteando y Vallenateando</strong>
+                    <p>Lunes a Viernes, 12:00 pm - 02:00 pm</p>
+                </div>
+            </div>
+            <div class="schedule-separator"></div>
+            <div class="schedule-item">
+                <img src=" https://i.ibb.co/Hx4P1J4/tranquilo-joven-oscuras.jpg" alt="Locutor 5" width="60" height="60">
+                <div>
+                    <strong>Las Tardes de Sensacion</strong>
+                    <p>Sábados y Domingos, 02:00 pm - 04:00 pm</p>
+                </div>
+            </div>
+            <div class="schedule-separator"></div>
+            <div class="schedule-item">
+                <img src=" https://i.ibb.co/qgKfBBQ/unnamed.png" alt="Locutor 6" width="60" height="60">
+                <div>
+                    <strong>Noches Sensacionales</strong>
+                    <p>Sábados y Domingos, 06:00 pm - 11:00 am</p>
+                </div>
+            </div>
+            <div class="schedule-separator"></div>
+            <div class="schedule-item">
+                <img src=" https://i.ibb.co/PGh5YyM/chica-linda.jpg" alt="Locutor 7" width="60" height="60">
+                <div>
+                    <strong>Musica Crossover</strong>
+                    <p>Sábados y Domingos, 05:00 am - 12:00 pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="player">
+        <div class="album-art">
+            <img src=" 
+https://i.postimg.cc/0jZXnGPh/sssssss.png
+" alt="Album Art" width="150" height="150">
+        </div>
+        <div class="player-content">
+            <div class="wave-animation">
+                <div class="wave" style="animation-delay: -0.4s;"></div>
+                <div class="wave" style="animation-delay: -0.3s;"></div>
+                <div class="wave" style="animation-delay: -0.2s;"></div>
+                <div class="wave" style="animation-delay: -0.1s;"></div>
+                <div class="wave"></div>
+                <div class="wave" style="animation-delay: 0.1s;"></div>
+                <div class="wave" style="animation-delay: 0.2s;"></div>
+                <div class="wave" style="animation-delay: 0.3s;"></div>
+                <div class="wave" style="animation-delay: 0.4s;"></div>
+            </div>
+            <div class="station-info">
+                <div class="station-name">SENSACION FM ESTEREO</div>
+                <div class="now-playing">Transmitiendo en vivo</div>
+            </div>
+            <div class="controls">
+                <button class="play-pause" id="playPauseBtn">?</button>
+                <button class="status-button" id="statusBtn">Offline</button>
+            </div>
+            <div class="volume-control">
+                <input type="range" min="0" max="1" step="0.01" value="1" class="volume-slider" id="volumeSlider">
+                <div class="volume-percentage" id="volumePercentage">100%</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-buttons">
+        <a href=" https://www.facebook.com/sensacionestereosuan/" target="_blank" class="social-button facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCmJFc5f20PHmTwvvX5sONGQ" target="_blank" class="social-button youtube">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="#" target="_blank" class="social-button tiktok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <a href=" https://wa.link/33qul8" target="_blank" class="social-button whatsapp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/sensacionestereosuan" target="_blank" class="social-button instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href=" https://x.com/sensacionst1065" target="_blank" class="social-button twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+
+    <div class="download-buttons">
+        <a href=" https://play.google.com/store/apps/details?id=sensacion.estereosuan7&hl=es_CO" target="_blank" class="download-button">
+            <i class="fab fa-google-play"></i>
+            <span>Play Store</span>
+        </a>
+        <a href=" https://www.sensaciondesuan.com/" target="_blank" class="download-button">
+            <i class="fab fa-app-store-ios"></i>
+            <span>App Store</span>
+        </a>
+    </div>
+
+    <div class="mobile-download-buttons">
+        <a href=" https://play.google.com/store/apps/details?id=sensacion.estereosuan7&hl=es_CO" target="_blank" class="mobile-download-button">
+            <i class="fab fa-google-play"></i>
+            <span>Descargar en Play Store</span>
+        </a>
+        <a href=" https://play.google.com/store/apps/details?id=sensacion.estereosuan7&hl=es_CO" target="_blank" class="mobile-download-button">
+            <i class="fab fa-app-store-ios"></i>
+            <span>Descargar en Play Store</span>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        const audio = new Audio(' https://stream.zeno.fm/r9mbyqtxd5zuv ');
+        audio.autoplay = true;
+        let isPlaying = true;
+        const playPauseBtn = document.getElementById('playPauseBtn');
+        const volumeSlider = document.getElementById('volumeSlider');
+        const volumePercentage = document.getElementById('volumePercentage');
+        const waveAnimation = document.querySelector('.wave-animation');
+        const statusBtn = document.getElementById('statusBtn');
+
+        audio.addEventListener('canplaythrough', () => {
+            audio.play().catch(e => {
+                console.error('Autoplay was prevented:', e);
+                isPlaying = false;
+                playPauseBtn.innerHTML = '?';
+                waveAnimation.style.display = 'none';
+                statusBtn.textContent = 'Offline';
+                statusBtn.classList.remove('online');
+            });
+            initializePlayer();
+        });
+
+        function initializePlayer() {
+            playPauseBtn.innerHTML = '??';
+            waveAnimation.style.display = 'flex';
+            statusBtn.textContent = 'Online';
+            statusBtn.classList.add('online');
+        }
+
+        playPauseBtn.addEventListener('click', togglePlayPause);
+        volumeSlider.addEventListener('input', adjustVolume);
+
+        function togglePlayPause() {
+            if (isPlaying) {
+                audio.pause();
+                playPauseBtn.innerHTML = '?';
+                waveAnimation.style.display = 'none';
+                statusBtn.textContent = 'Offline';
+                statusBtn.classList.remove('online');
+            } else {
+                audio.play();
+                playPauseBtn.innerHTML = '??';
+                waveAnimation.style.display = 'flex';
+                statusBtn.textContent = 'Online';
+                statusBtn.classList.add('online');
+            }
+            isPlaying = !isPlaying;
+        }
+
+        function adjustVolume() {
+            audio.volume = volumeSlider.value;
+            updateVolumePercentage();
+        }
+
+        function updateVolumePercentage() {
+            const percentage = Math.round(volumeSlider.value * 100);
+            volumePercentage.textContent = `${percentage}%`;
+        }
+
+        setInterval(() => {
+            document.querySelectorAll('.wave').forEach(wave => {
+                wave.style.animationDuration = `${0.5 + Math.random()}s`;
+            });
+        }, 1000);
+
+        updateVolumePercentage();
+
+        const dropdownBtn = document.querySelector('.dropbtn');
+        const dropdownContent = document.querySelector('.dropdown-content');
+
+        dropdownBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+            if (dropdownContent.style.display === 'block') {
+                setTimeout(() => {
+                    dropdownContent.style.opacity = '1';
+                    dropdownContent.style.transform = 'translateY(0)';
+                }, 50);
+            } else {
+                dropdownContent.style.opacity = '0';
+                dropdownContent.style.transform = 'translateY(-10px)';
+            }
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!dropdownContent.contains(e.target) && e.target !== dropdownBtn) {
+                dropdownContent.style.opacity = '0';
+                dropdownContent.style.transform = 'translateY(-10px)';
+                setTimeout(() => {
+                    dropdownContent.style.display = 'none';
+                }, 300);
+            }
+        });
+
+        const messages = [
+            "¡Sintoniza ahora y disfruta de la mejor música!",
+            "La radio que te acompaña todo el día",
+            "Descubre nuevos artistas con nosotros",
+            "Tu emisora favorita está a un clic de distancia",
+            "Música, noticias y entretenimiento en un solo lugar",
+            "Déjate llevar por el ritmo de Radio Moderna",
+            "Conecta con la comunidad a través de nuestra radio",
+            "Expande tus horizontes musicales con nuestra selección",
+            "La banda sonora de tu vida está aquí",
+            "Haz de tu día algo especial con DJ WILMER"
+        ];
+
+        function showFloatingMessage() {
+            const container = document.getElementById('floatingMessages');
+            container.innerHTML = '';
+            const messageElement = document.createElement('div');
+            messageElement.classList.add('floating-message');
+            messageElement.textContent = messages[Math.floor(Math.random() * messages.length)];
+            container.appendChild(messageElement);
+
+            setTimeout(() => {
+                messageElement.style.opacity = '1';
+            }, 100);
+
+            setTimeout(() => {
+                messageElement.style.opacity = '0';
+            }, 7500);
+        }
+
+        setInterval(showFloatingMessage, 8000);
+        showFloatingMessage();
+
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: "#ffffff" },
+                shape: { type: "circle" },
+                opacity: { value: 0.5, random: true, anim: { enable: true, speed: 1, opacity_min: 0.1, sync: false } },
+                size: { value: 3, random: true, anim: { enable: false, speed: 40, size_min: 0.1, sync: false } },
+                line_linked: { enable: true, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
+                move: { enable: true, speed: 6, direction: "none", random: false, straight: false, out_mode: "out", bounce: false, attract: { enable: false, rotateX: 600, rotateY: 1200 } }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
+                modes: { grab: { distance: 400, line_linked: { opacity: 1 } }, bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 }, repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 }, remove: { particles_nb: 2 } }
+            },
+            retina_detect: true
+        });
+
+        // Code for mobile download buttons
+        if (window.innerWidth <= 768) {
+            const mobileDownloadButtons = document.querySelector('.mobile-download-buttons');
+            mobileDownloadButtons.style.display = 'flex';
+            
+            setTimeout(() => {
+                mobileDownloadButtons.style.opacity = '0';
+                setTimeout(() => {
+                    mobileDownloadButtons.style.display = 'none';
+                }, 300);
+            }, 9000);
+        }
+    </script>
+
+</body></html>
